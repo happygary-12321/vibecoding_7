@@ -1,5 +1,10 @@
 # HW4 physics tests and function coverage
 
+The [actual Codex transcript index](transcript/README.md) links byte-preserved
+session logs, readable recorded messages, SHA-256 provenance, and exact capture
+cutoffs for Parts 1-5, the coverage audit, and the intentional-bug experiment.
+It is evidence for reference, not the user's personally authored testing log.
+
 This folder contains independent analytical tests for the simulator's supported
 2D translational physics, using the existing standard-library `unittest`
 framework. The simulator source files remain in the repository root.
@@ -125,6 +130,19 @@ The authorized [intentional-bug experiment](bug_experiment_results.md) is comple
 58 tests passed before and after exact production restoration; the temporary
 right-wall defect caused 10 methods to fail (309 failure entries), exit 1.
 Raw evidence is in [bug_experiment/](bug_experiment/).
-The user's personally written log and reviewed git commits remain pending.
 Earlier step reports preserve their historical status; the coverage report
 records the current audit outcome.
+
+
+## Final submission
+
+Testing log: [HW4_Testing_Log.pdf](HW4_Testing_Log.pdf)
+
+Repository: https://github.com/happygary-12321/vibecoding_4
+
+The original HW4 tests and mutation experiment were committed in b27c2fb.
+The testing log and transcript are included in this submission.
+
+Run the tests from the repository root:
+
+python -B -m hw4.run_tests
