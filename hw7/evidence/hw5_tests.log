@@ -1,0 +1,100 @@
+Command: C:\Users\omen16\AppData\Local\Programs\Python\Python312\python.exe -B -m hw7.verify --suite hw5
+Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+test_combined_hand_step_and_inputs_unchanged (Hw5.test_damping.DampingTests.test_combined_hand_step_and_inputs_unchanged) ... ok
+test_default_and_zero_exact_undamped_regression (Hw5.test_damping.DampingTests.test_default_and_zero_exact_undamped_regression) ... ok
+test_external_loads_lifetime_and_no_com_drag_moment (Hw5.test_damping.DampingTests.test_external_loads_lifetime_and_no_com_drag_moment) ... ok
+test_gyro_numerical_drift_can_exceed_dissipation (Hw5.test_damping.DampingTests.test_gyro_numerical_drift_can_exceed_dissipation) ... ok
+test_headless_example_smoke (Hw5.test_damping.DampingTests.test_headless_example_smoke) ... ok
+test_invalid_coefficients_and_step_boundaries (Hw5.test_damping.DampingTests.test_invalid_coefficients_and_step_boundaries) ... ok
+test_linear_angular_and_combined_sphere_energy_decay (Hw5.test_damping.DampingTests.test_linear_angular_and_combined_sphere_energy_decay) ... ok
+test_linear_exponential_and_position_refinement (Hw5.test_damping.DampingTests.test_linear_exponential_and_position_refinement) ... linear damping endpoint (velocity,position) errors h=.02,.01,.005: [(0.008210182280629467, 0.026121783964392714), (0.0040939273401708635, 0.013042057033078928), (0.0020441860396356024, 0.00651633507094098)]
+ok
+test_nonspherical_gyro_and_body_damping_contribution (Hw5.test_damping.DampingTests.test_nonspherical_gyro_and_body_damping_contribution) ... ok
+test_power_balance_rate_converges_nonspherical (Hw5.test_damping.DampingTests.test_power_balance_rate_converges_nonspherical) ... power balance: target W= -19.6 quadratic= 267.8727179487179 rate errors h=.02,.01,.005,.0025: [5.357454358974884, 2.678727179486124, 1.3393635897360596, 0.6696817948610274]
+ok
+test_sphere_angular_exponential_and_refinement (Hw5.test_damping.DampingTests.test_sphere_angular_exponential_and_refinement) ... sphere angular damping endpoint errors h=.02,.01,.005: [(0.0057045030704313306,), (0.0028444948338387545,), (0.0014203174961354354,)]
+ok
+test_arbitrary_gravity_hand_step_mass_independence (Hw5.test_dynamics.DynamicsTests.test_arbitrary_gravity_hand_step_mass_independence) ... ok
+test_constant_force_trajectory_and_bias (Hw5.test_dynamics.DynamicsTests.test_constant_force_trajectory_and_bias) ... ok
+test_first_order_position_convergence (Hw5.test_dynamics.DynamicsTests.test_first_order_position_convergence) ... ok
+test_force_lifetime_and_independent_bodies (Hw5.test_dynamics.DynamicsTests.test_force_lifetime_and_independent_bodies) ... ok
+test_galilean_boost (Hw5.test_dynamics.DynamicsTests.test_galilean_boost) ... ok
+test_gravity_is_mass_independent (Hw5.test_dynamics.DynamicsTests.test_gravity_is_mass_independent) ... ok
+test_hand_step (Hw5.test_dynamics.DynamicsTests.test_hand_step) ... ok
+test_immutable_vectors_and_clock (Hw5.test_dynamics.DynamicsTests.test_immutable_vectors_and_clock) ... ok
+test_invalid_construction (Hw5.test_dynamics.DynamicsTests.test_invalid_construction) ... ok
+test_rejection_preserves_inputs (Hw5.test_dynamics.DynamicsTests.test_rejection_preserves_inputs) ... ok
+test_uniform_motion_and_momentum (Hw5.test_dynamics.DynamicsTests.test_uniform_motion_and_momentum) ... ok
+test_interior_quadrature_refinement (Hw5.test_inertia.InertiaSamplingTests.test_interior_quadrature_refinement) ... prism quadrature relative error n=8,16: [0.015625, 0.00390625]
+sphere quadrature relative error n=8,16: [0.014687538146972656, 0.003684893250465393]
+cylinder quadrature relative error n=8,16: [0.013671875, 0.00341796875]
+ok
+test_parallel_axis_offset_tensor (Hw5.test_inertia.InertiaSamplingTests.test_parallel_axis_offset_tensor) ... ok
+test_acyclic_chain_couples_three_finite_bodies (Hw5.test_joints.JointTests.test_acyclic_chain_couples_three_finite_bodies) ... ok
+test_dynamic_prismatic_rotating_parent_transport (Hw5.test_joints.JointTests.test_dynamic_prismatic_rotating_parent_transport) ... 500-step rotating-parent slider max residuals: [5.117875266520903e-16, 1.6653345369377346e-16, 1.9540102647498285e-16, 0.0]
+ok
+test_equilibrium_zero_damping_and_no_joint_regression (Hw5.test_joints.JointTests.test_equilibrium_zero_damping_and_no_joint_regression) ... ok
+test_ideal_reaction_power_both_bodies (Hw5.test_joints.JointTests.test_ideal_reaction_power_both_bodies) ... fixed impulse-velocity pairings per body / sum (J): [-0.18428975436098255, 0.18428975436098255] 0.0
+revolute impulse-velocity pairings per body / sum (J): [-0.16578065050648888, 0.16578065050648888] 0.0
+prismatic impulse-velocity pairings per body / sum (J): [-0.018337680359062428, 0.018337680359062435] 6.938893903907228e-18
+ok
+test_isolated_momenta_and_energy_refinement (Hw5.test_joints.JointTests.test_isolated_momenta_and_energy_refinement) ... isolated fixed assembly max L/energy errors h=.004,.002: [(0.0006141330017770397, 0.0002456176196401483), (0.000307133238963031, 0.00012284439645182665)]
+isolated total linear momentum max errors kg*m/s: [1.616509124176106e-15, 3.84752750796379e-15]
+ok
+test_joint_example_headless_smoke (Hw5.test_joints.JointTests.test_joint_example_headless_smoke) ... ok
+test_joint_example_snapshot_smoke (Hw5.test_joints.JointTests.test_joint_example_snapshot_smoke) ... ok
+test_joint_load_lifetime_and_optional_damping (Hw5.test_joints.JointTests.test_joint_load_lifetime_and_optional_damping) ... ok
+test_long_run_revolute_arbitrary_axis_nonidentity_and_sign (Hw5.test_joints.JointTests.test_long_run_revolute_arbitrary_axis_nonidentity_and_sign) ... 600-step arbitrary-axis revolute max residuals (m,rad,m/s,rad/s): [5.613217783960923e-16, 2.898597830398228e-16, 1.249000902703301e-16, 1.3256738189514616e-16]
+ok
+test_revolute_offset_pivot_hand_acceleration (Hw5.test_joints.JointTests.test_revolute_offset_pivot_hand_acceleration) ... ok
+test_revolute_pendulum_energy_and_first_order (Hw5.test_joints.JointTests.test_revolute_pendulum_energy_and_first_order) ... pendulum reference theta= -0.2996001765987578 endpoint angle/energy errors h=.01,.005,.0025: [(0.0002457270383612875, 0.013447851569861058), (0.00012323641611827751, 0.006774610317361152), (6.173874605014396e-05, 0.0034000491848900083)]
+ok
+test_scene_rotation_symmetry (Hw5.test_joints.JointTests.test_scene_rotation_symmetry) ... ok
+test_stationary_world_power_and_initialization_energy (Hw5.test_joints.JointTests.test_stationary_world_power_and_initialization_energy) ... explicit initialization energy before/after J: 1.9900000000000002 1.7818181818181817
+ok
+test_translation_invariance_world_support_moves (Hw5.test_joints.JointTests.test_translation_invariance_world_support_moves) ... ok
+test_two_body_fixed_coupling_and_whole_motion (Hw5.test_joints.JointTests.test_two_body_fixed_coupling_and_whole_motion) ... ok
+test_two_body_revolute_relative_spin_allowed (Hw5.test_joints.JointTests.test_two_body_revolute_relative_spin_allowed) ... ok
+test_validation_topology_failures_and_inputs_unchanged (Hw5.test_joints.JointTests.test_validation_topology_failures_and_inputs_unchanged) ... ok
+test_world_fixed_pose_velocity_and_offcenter_load (Hw5.test_joints.JointTests.test_world_fixed_pose_velocity_and_offcenter_load) ... ok
+test_world_prismatic_arbitrary_axis_force (Hw5.test_joints.JointTests.test_world_prismatic_arbitrary_axis_force) ... ok
+test_world_prismatic_transverse_load_resisted (Hw5.test_joints.JointTests.test_world_prismatic_transverse_load_resisted) ... ok
+test_body_kinematics_right_multiplication (Hw5.test_quaternions.QuaternionTests.test_body_kinematics_right_multiplication) ... ok
+test_constant_z_spin_phase_error_and_refinement (Hw5.test_quaternions.QuaternionTests.test_constant_z_spin_phase_error_and_refinement) ... constant-z phase error h=.02,.01,.005 rad: [0.00014645181674000085, 3.66157384616983e-05, 9.1541086484348e-06]
+ok
+test_exact_half_turn_matrices_and_small_angles (Hw5.test_quaternions.QuaternionTests.test_exact_half_turn_matrices_and_small_angles) ... ok
+test_identity_and_coordinate_quarter_turns (Hw5.test_quaternions.QuaternionTests.test_identity_and_coordinate_quarter_turns) ... ok
+test_invalid_inputs_and_unchanged_sequences (Hw5.test_quaternions.QuaternionTests.test_invalid_inputs_and_unchanged_sequences) ... ok
+test_inverse_and_magnitude_preservation (Hw5.test_quaternions.QuaternionTests.test_inverse_and_magnitude_preservation) ... ok
+test_long_run_norm_with_changing_omega (Hw5.test_quaternions.QuaternionTests.test_long_run_norm_with_changing_omega) ... quaternion norm max residual over 10000 varying-omega steps: 2.220446049250313e-16
+ok
+test_matrix_properties_and_orientation_round_trips (Hw5.test_quaternions.QuaternionTests.test_matrix_properties_and_orientation_round_trips) ... ok
+test_noncommuting_composition_order (Hw5.test_quaternions.QuaternionTests.test_noncommuting_composition_order) ... ok
+test_rodrigues_arbitrary_axis_and_matrix (Hw5.test_quaternions.QuaternionTests.test_rodrigues_arbitrary_axis_and_matrix) ... ok
+test_sign_equivalence_vectors_geometry_and_trajectories (Hw5.test_quaternions.QuaternionTests.test_sign_equivalence_vectors_geometry_and_trajectories) ... ok
+test_sphere_arbitrary_axis_spin (Hw5.test_quaternions.QuaternionTests.test_sphere_arbitrary_axis_spin) ... ok
+test_contact_point_direction_and_manifold_limit (Hw5.test_rigid.RigidTests.test_contact_point_direction_and_manifold_limit) ... ok
+test_cylinder_ground_and_advance_clock (Hw5.test_rigid.RigidTests.test_cylinder_ground_and_advance_clock) ... ok
+test_gyroscopic_hand_step (Hw5.test_rigid.RigidTests.test_gyroscopic_hand_step) ... ok
+test_hand_inertia_and_symmetry (Hw5.test_rigid.RigidTests.test_hand_inertia_and_symmetry) ... ok
+test_offcenter_impulse_hand_calculation (Hw5.test_rigid.RigidTests.test_offcenter_impulse_hand_calculation) ... ok
+test_oriented_clearance (Hw5.test_rigid.RigidTests.test_oriented_clearance) ... ok
+test_principal_axis_rotation_and_torque (Hw5.test_rigid.RigidTests.test_principal_axis_rotation_and_torque) ... ok
+test_quaternion_frames_and_mesh (Hw5.test_rigid.RigidTests.test_quaternion_frames_and_mesh) ... ok
+test_sphere_centered_impact_and_endpoints (Hw5.test_rigid.RigidTests.test_sphere_centered_impact_and_endpoints) ... ok
+test_torque_free_invariants_refine (Hw5.test_rigid.RigidTests.test_torque_free_invariants_refine) ... torque-free relative max (L,E), h=.01,.005,.0025: [(0.000922183706960478, 0.0007242565889032875), (0.0004610671923410806, 0.00036229520502556315), (0.00023052708213245604, 0.0001811890264586471)]
+ok
+test_translation_invariant_rotation (Hw5.test_rigid.RigidTests.test_translation_invariant_rotation) ... ok
+test_validation_and_immutability (Hw5.test_rigid.RigidTests.test_validation_and_immutability) ... ok
+test_world_offcenter_load_and_lifetime (Hw5.test_rigid.RigidTests.test_world_offcenter_load_and_lifetime) ... ok
+test_zero_spin_agrees_with_part1 (Hw5.test_rigid.RigidTests.test_zero_spin_agrees_with_part1) ... ok
+test_snapshot_smoke (Hw5.test_showcase.ShowcaseTests.test_snapshot_smoke) ... Prism steps= 720 time= 3.0 position= (-2.7, 0.460164, 0.0) omega= (-0.285216, 0.915269, 0.822096) impacts= 25
+Sphere steps= 720 time= 3.0 position= (0.3, 0.577906, 0.0) omega= (1.5, 1.0, 0.5) impacts= 5
+Cylinder steps= 720 time= 3.0 position= (2.7, 0.459555, 0.0) omega= (0.125832, 0.112979, 1.0) impacts= 15
+ok
+test_three_body_headless_scene (Hw5.test_showcase.ShowcaseTests.test_three_body_headless_scene) ... ok
+
+----------------------------------------------------------------------
+Ran 72 tests in 7.718s
+
+OK

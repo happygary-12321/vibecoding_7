@@ -1,0 +1,9 @@
+{
+  "world_exact": true,
+  "reports_exact": true,
+  "contains_collision": true,
+  "reference_digest": "48e5d60c37425a7edabb3473b84fe5585ee7d5d0e85d531771d257a8eff0ac81",
+  "instrumented_digest": "48e5d60c37425a7edabb3473b84fe5585ee7d5d0e85d531771d257a8eff0ac81",
+  "complete": true,
+  "passed": true
+}

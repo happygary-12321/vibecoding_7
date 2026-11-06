@@ -1,0 +1,668 @@
+{
+  "label": "full_serial_r0",
+  "backend": "serial",
+  "status": "complete",
+  "complete": true,
+  "physics_complete": true,
+  "command": [
+    "C:\\Users\\omen16\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "-m",
+    "hw7.evidence.full_scene.runner",
+    "trial",
+    "--label",
+    "full_serial_r0",
+    "--backend",
+    "serial"
+  ],
+  "identity": {
+    "source": {
+      "hashes": {
+        "Hw5/__init__.py": "f01a19675f2b96d0c363511c6ca456d3a4f5f257f1855c8111ea45635676939f",
+        "Hw5/damping_example.py": "cc75322eb16e4107ec66e5a55b03905d2af3c81fbf1d9a0fc49aa397274a46ac",
+        "Hw5/dynamics.py": "960d39d8d658e25148bf11e399502d46907b23591f89090b767d0c2be307358c",
+        "Hw5/example.py": "c10bf60f06b02d591438d7c6988f94f4b353c9e423c47e557ecb0d7a44be11ea",
+        "Hw5/geometry.py": "ee708543b7eb9df9bc21952e0603e0a5ae50c07437a163d39d1ffa0c5c744281",
+        "Hw5/joints.py": "334ba8b5d716b2bb6edbaaf94fab471ce166753b3addbf6678d01821c51370d1",
+        "Hw5/joints_example.py": "61d71a291429d975b6d10abc31973353cd16031bd81ac36a3c2ac347bca59433",
+        "Hw5/quaternion_example.py": "6b8a74431a7d1c7da543983a78a3970f5db4cfefbd63707d58fb794782938359",
+        "Hw5/rigid.py": "28b2a1b40686dc01fea7758abc717017aebbcc975af4c518685cf3b79f877441",
+        "Hw5/showcase.py": "272dcfd68a0bdce9a68b123fc59d2d01b45e4eba5e4a020b7c0c6249eb57019a",
+        "Hw5/spatial.py": "30100fde4ac955190b66f6b19ab406644f485fa611e545a97cff6b477995de15",
+        "Hw5/test_damping.py": "d1389a891eae6f6668c359073c4cb23c2bc231def874bc41b261739712110a2c",
+        "Hw5/test_dynamics.py": "7ea03cd02fe1375902a92dc06011757e6c3216a37a41fb3ffd4e936fb75108df",
+        "Hw5/test_inertia.py": "f64c762d81929da719e589444d3f666261f55d7f482319efa5653a06e60fa118",
+        "Hw5/test_joints.py": "e28c6a8b124656300811c073e113aa1cb6cf21348b692c3025664036ea17d3d6",
+        "Hw5/test_quaternions.py": "204088a371eab28dcc56ed9c746f249dde1cf3e4afa9b1c0ac451cb895cceeca",
+        "Hw5/test_rigid.py": "12510e533b74c82b1f416610209b4771eeb3112ae1970209bad5ecfbabe9818f",
+        "Hw5/test_showcase.py": "b431a9184d9c5fd7a3308b7ff0210639eb7e0adc2e6c8fa8f35251efa047bcea",
+        "hw7/__init__.py": "b71b32812b6cbb587aa4dbabd1a345cd5d81cf5d55683c7753f277663172abd9",
+        "hw7/collision.py": "e27505e938d42ba6954f5b55d0eb850e11efad6ad9ddeff5090bf729ad3bc346",
+        "hw7/falling_objects.py": "9f864571a788d201a3021ee76b50d98d6a19d6e10212b8683cfd67f8ca9717de",
+        "hw7/manifolds.py": "37f8f19e20eee9d6c8397839bba32ede971a29ab441bef7aa8f1d4c0cd4cba78",
+        "hw7/math3.py": "8d7ef38c00a7075595831c378456849bb32c69cdd6b028119ff92924dd446eaa",
+        "hw7/model.py": "bceac89cf44a454bedda3fe38c62fc85fea12daf39fd48f94db2b1fb12f7831c",
+        "hw7/parallel.py": "bc0e11524e1b1a723127e3c250404fdeee33bcd22ab71013625e1c9372f6c30b",
+        "hw7/parallel_checks.py": "d7d21cca7a336eeece02c830c10c08285941998ced337301815f8575a3af0b74",
+        "hw7/parallel_pilot.py": "48e6c563082da5ce12716b6f3c2c8d2ded4cd9a49c4f4c13908a66a1ae3c7692",
+        "hw7/profile_analysis.py": "c495417031a28d84ff9ba6d907174caf6e6c1f46c349abd5216d5ad3db6d3b78",
+        "hw7/profiling.py": "efb7c02d20bcef087e1b69404a472c2f7baa6329da79f829206707bbf5c060c7",
+        "hw7/rendering.py": "fe851e348b0728cfd8b1ba7d89036b951475454c9123ade0d3172928fe9ab799",
+        "hw7/scene.py": "a2859af998e32957bd1583d3ec02356a3e57ab35123178950047a1c83c0d5211",
+        "hw7/solver.py": "ebf1b4056344127ae1afbd2a25c6ac69f379cce77517e719d7429f689f98843d",
+        "hw7/verify.py": "67d0623cc1311a85406eb34fbf9cdaa0b5fc5c9df9974a8ec8a1df6e8e1ecd29",
+        "hw7/world.py": "073c9f72cede0602e048fe9244575a3701b5f9d8a1a58c98377b8cc1dd124c60"
+      },
+      "source_id": "85468c927e15b994858104577d1d1bf082b6b06604d50d34338f0252f4b065bd",
+      "physics_source_id": "85a6b0a41e01bd7f9a8366e6b92b9d10de4f128e20d0d7183ce30e300e685857"
+    },
+    "harness_hashes": {
+      "hw7/evidence/full_scene/audit.py": "eda08d0a160b9f3e5870f0d69ea4f9added4bd08c2a30db09fb8aca5878503b3",
+      "hw7/evidence/full_scene/checks.py": "cf7e208a8137d14ffe4fddc16eb105273783e7b79712397e0e6abfeafab5bd44",
+      "hw7/evidence/full_scene/runner.py": "f6aab3f426c3841c7624d4bda83e127c157b92154b1b64f119aab1fb02a7320a",
+      "hw7/evidence/full_scene/schedule.py": "8b5927f9a3acc0d8926e398171a5a1f34c6a223b3da58c14c462fe280c13fe6e",
+      "hw7/evidence/full_scene/summarize.py": "d6628321f9f58cadeb01e8a1c66f7caaac512994f039b7a553881232c01c4ceb"
+    },
+    "options": {
+      "dt": 0.0020833333333333333,
+      "gravity": [
+        0.0,
+        -9.81,
+        0.0
+      ],
+      "restitution": 0.15,
+      "friction": 0.4,
+      "restitution_threshold": 0.5,
+      "velocity_iterations": 120,
+      "split_iterations": 20,
+      "enable_split": true,
+      "slop": 0.0001,
+      "beta": 0.2,
+      "correction_depth_limit": 0.03,
+      "max_translation": 0.01,
+      "max_rotation": 0.05,
+      "geometry_relative": 1e-08,
+      "contact_factor": 5.0,
+      "break_relative": 0.0001,
+      "face_angle": 0.0001,
+      "incident_cap_angle": 0.7853981633974483,
+      "cache_angle": 0.08726646259971647,
+      "perturb_angle": 0.01,
+      "gjk_iterations": 64,
+      "epa_iterations": 128,
+      "epa_faces": 512
+    },
+    "seed": 7,
+    "steps": 2880,
+    "warmup_steps": 30,
+    "workers": 8,
+    "batch_size": 4,
+    "serial_threshold": 0,
+    "thread_limits": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "journal_every": 120,
+    "timing_scope": "One continuous unprofiled wall span around 2880 step_world/report appends; includes both barriers, IPC, dispatch/gather/synchronization, ordered solver, and identical 120-step progress JSON/console writes. No resumed segments. Excludes setup/loading, pool readiness, 30-step warmup, final hashes, acceptance, realized-state/report export and shutdown.",
+    "output_mode": "reports retained; no frames/snapshots/rendering/sleeping",
+    "warmup_policy": "30 discarded steps from genuine step-600 cache; reuse workers; reset to identical seed-7 step-0 world and EMPTY initial cache"
+  },
+  "runtime": {
+    "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+    "executable": "C:\\Users\\omen16\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "platform": "Windows-11-10.0.26300-SP0",
+    "logical_cpu_count": 24,
+    "versions": {
+      "numpy": "2.3.5",
+      "scipy": "1.17.1",
+      "matplotlib": "3.10.8",
+      "psutil": "7.2.2",
+      "threadpoolctl": null,
+      "cython": null,
+      "numba": null
+    },
+    "native_temp_directory": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\evidence\\full_scene\\native_tmp\\parent",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_DYNAMIC": null,
+      "OMP_PROC_BIND": null
+    },
+    "physical_cpu_count_psutil": 24,
+    "effective_affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23
+    ],
+    "battery": {
+      "percent": 100,
+      "power_plugged": true
+    }
+  },
+  "initial_cache_manifolds": 0,
+  "initial_step": 0,
+  "seed": 7,
+  "steps": 2880,
+  "created_utc": "2026-11-05T22:39:45.355512+00:00",
+  "pid": 52324,
+  "resumed": false,
+  "warmup_checkpoint": {
+    "step": 600,
+    "time": 1.2500000000000095,
+    "preparation_physics_seconds": 82.63128600000006,
+    "sha256": "047b0d37f103ea6d330b3d80555c9272546aeb2a2bcc069e2fa2c8111fb2b7c3",
+    "physics_source_id": "5740562222ed7b3ad9956979ee0e2718e39adaa48e9c653681ed0edea3154a10",
+    "prepared_from_step": 0,
+    "genuine_simulation": true,
+    "includes_contact_cache": true,
+    "cache_manifolds": 19,
+    "seed": 7,
+    "options": {
+      "dt": 0.0020833333333333333,
+      "gravity": [
+        0.0,
+        -9.81,
+        0.0
+      ],
+      "restitution": 0.15,
+      "friction": 0.4,
+      "restitution_threshold": 0.5,
+      "velocity_iterations": 120,
+      "split_iterations": 20,
+      "enable_split": true,
+      "slop": 0.0001,
+      "beta": 0.2,
+      "correction_depth_limit": 0.03,
+      "max_translation": 0.01,
+      "max_rotation": 0.05,
+      "geometry_relative": 1e-08,
+      "contact_factor": 5.0,
+      "break_relative": 0.0001,
+      "face_angle": 0.0001,
+      "incident_cap_angle": 0.7853981633974483,
+      "cache_angle": 0.08726646259971647,
+      "perturb_angle": 0.01,
+      "gjk_iterations": 64,
+      "epa_iterations": 128,
+      "epa_faces": 512
+    },
+    "explicit_compatibility": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\evidence\\parallel_pilot\\compatibility_v3.json",
+    "loaded_with_physics_source_id": "85a6b0a41e01bd7f9a8366e6b92b9d10de4f128e20d0d7183ce30e300e685857"
+  },
+  "warmup_seconds": 5.113362500007497,
+  "physics_seconds": 1047.9100364000187,
+  "journal_io_seconds": 0.053376999916508794,
+  "completed_steps": 2880,
+  "replay_sha256": "d40a6e3123d0f0c9f1df66ce9b3dd7b87ee747b1903925bfc7bb3a719e952591",
+  "value_digest": "d8200d8e082505b79ba235cc1aca6a1d11f9757d02ad4ecd6c47e7ff166d5965",
+  "report_count": 2880,
+  "acceptance": {
+    "accepted": true,
+    "full_geometry_outside_ids": [],
+    "analytic_final_bounds": [
+      {
+        "id": 0,
+        "minimum": [
+          -1.2959473049832142,
+          -0.00031586729760849086,
+          -0.7296397682343643
+        ],
+        "maximum": [
+          -0.8375824377158944,
+          0.31971324874418505,
+          -0.25614957992137183
+        ]
+      },
+      {
+        "id": 1,
+        "minimum": [
+          -0.6618069081877092,
+          -0.0002703124999999251,
+          -1.6321931483570273
+        ],
+        "maximum": [
+          -0.2618069081877092,
+          0.3997296875000001,
+          -1.2321931483570274
+        ]
+      },
+      {
+        "id": 2,
+        "minimum": [
+          1.220560168445369,
+          -0.0009827465632452625,
+          -0.769488512541542
+        ],
+        "maximum": [
+          1.6143311483395046,
+          0.35911901233873683,
+          -0.33938876469608537
+        ]
+      },
+      {
+        "id": 3,
+        "minimum": [
+          -1.255867959434385,
+          -0.0002780108660472014,
+          0.38806849979701197
+        ],
+        "maximum": [
+          -0.8520000491707228,
+          0.3497332186177554,
+          0.8117586565847587
+        ]
+      },
+      {
+        "id": 4,
+        "minimum": [
+          -0.22551818602376672,
+          -0.0002703124999999529,
+          1.4654363588332793
+        ],
+        "maximum": [
+          0.20448181397623333,
+          0.42972968750000007,
+          1.8954363588332794
+        ]
+      },
+      {
+        "id": 5,
+        "minimum": [
+          1.1607729703911192,
+          -0.00027031250467840495,
+          0.4092180355321312
+        ],
+        "maximum": [
+          1.6263439862883105,
+          0.3797296875143194,
+          0.9125139807574315
+        ]
+      },
+      {
+        "id": 6,
+        "minimum": [
+          -1.4073826812420984,
+          0.3195598915343042,
+          -0.6857629274235459
+        ],
+        "maximum": [
+          -0.9059626294936396,
+          0.6996014704572789,
+          -0.16890541564403505
+        ]
+      },
+      {
+        "id": 7,
+        "minimum": [
+          -0.9114589510667355,
+          -0.0002703124999999529,
+          -0.9237655168070454
+        ],
+        "maximum": [
+          -0.4514589510667355,
+          0.4597296875000001,
+          -0.4637655168070455
+        ]
+      },
+      {
+        "id": 8,
+        "minimum": [
+          0.39725492059150547,
+          -0.00027031250264636375,
+          -1.9265292448714293
+        ],
+        "maximum": [
+          1.0053820585998454,
+          0.39972968750262244,
+          -1.3184327987997837
+        ]
+      },
+      {
+        "id": 9,
+        "minimum": [
+          -1.2773952168183178,
+          0.34961548118905605,
+          0.18961597686389606
+        ],
+        "maximum": [
+          -0.8077770278992165,
+          0.6696288118872306,
+          0.6778665975774713
+        ]
+      },
+      {
+        "id": 10,
+        "minimum": [
+          -0.8608750658578357,
+          -0.0002703124999999251,
+          1.0976029371179923
+        ],
+        "maximum": [
+          -0.3708750658578357,
+          0.48972968750000007,
+          1.5876029371179925
+        ]
+      },
+      {
+        "id": 11,
+        "minimum": [
+          1.4822666116397287,
+          -0.0002703125045074861,
+          0.6488753453735254
+        ],
+        "maximum": [
+          2.0000992641289512,
+          0.41972968749902806,
+          1.2195228945919119
+        ]
+      },
+      {
+        "id": 12,
+        "minimum": [
+          -1.2456802738465007,
+          0.6994447086586907,
+          -0.7891155389632306
+        ],
+        "maximum": [
+          -0.8401414437269343,
+          1.0494847394383393,
+          -0.28915662242670603
+        ]
+      },
+      {
+        "id": 13,
+        "minimum": [
+          1.486003593307504,
+          -0.0002703124999999251,
+          -2.0001
+        ],
+        "maximum": [
+          1.886003593307504,
+          0.3997296875000001,
+          -1.6001000000000003
+        ]
+      },
+      {
+        "id": 14,
+        "minimum": [
+          -0.6085413826622627,
+          -0.0002703125007262608,
+          -2.0000999963529473
+        ],
+        "maximum": [
+          -0.08061945335324405,
+          0.35972968749977585,
+          -1.628559366809816
+        ]
+      },
+      {
+        "id": 15,
+        "minimum": [
+          -1.332106571217254,
+          -0.00027031540430424994,
+          0.8049386813218572
+        ],
+        "maximum": [
+          -0.8805822539097558,
+          0.3997296894585096,
+          1.2396209687479418
+        ]
+      },
+      {
+        "id": 16,
+        "minimum": [
+          -0.3565329542542955,
+          -0.0002703125001292661,
+          -0.25811180837749415
+        ],
+        "maximum": [
+          0.07346704574570456,
+          0.4297296874998708,
+          0.17188819162250593
+        ]
+      },
+      {
+        "id": 17,
+        "minimum": [
+          1.610942059342192,
+          -0.00027031250877385116,
+          -0.5151918633951389
+        ],
+        "maximum": [
+          2.0001001807615015,
+          0.37972968749767944,
+          -0.10650209984452963
+        ]
+      },
+      {
+        "id": 18,
+        "minimum": [
+          -0.23533829843174844,
+          -0.00027031250201534074,
+          -0.5882801141241916
+        ],
+        "maximum": [
+          0.21898674453739045,
+          0.41972968750194706,
+          -0.22166334845840702
+        ]
+      },
+      {
+        "id": 19,
+        "minimum": [
+          0.7840722303547663,
+          -0.00027031249999179274,
+          -0.728234775661149
+        ],
+        "maximum": [
+          1.2440722303547662,
+          0.4597296875000082,
+          -0.26823477566114895
+        ]
+      },
+      {
+        "id": 20,
+        "minimum": [
+          0.9229139267894133,
+          -0.00027031250305228904,
+          -1.9859704198900028
+        ],
+        "maximum": [
+          1.5098285005579604,
+          0.39972968750304716,
+          -1.4020866675029944
+        ]
+      },
+      {
+        "id": 21,
+        "minimum": [
+          -1.53673036831765,
+          -0.00027031250011269603,
+          1.5141403787817898
+        ],
+        "maximum": [
+          -1.06900071342892,
+          0.34972968750002753,
+          1.9818700336704156
+        ]
+      },
+      {
+        "id": 22,
+        "minimum": [
+          -0.018220423999386337,
+          -0.0002703124997213979,
+          -0.014180236305280397
+        ],
+        "maximum": [
+          0.47177957600061365,
+          0.48972968750027857,
+          0.47581976369471957
+        ]
+      },
+      {
+        "id": 23,
+        "minimum": [
+          0.37318517218125624,
+          -0.0002703125007113838,
+          0.23887680400473704
+        ],
+        "maximum": [
+          0.8843931981864022,
+          0.4197296875004475,
+          0.7802647875343831
+        ]
+      },
+      {
+        "id": 24,
+        "minimum": [
+          -1.8039291853225492,
+          -0.00027031250000009166,
+          -0.16565703239880314
+        ],
+        "maximum": [
+          -1.2473059689745234,
+          0.3797296875,
+          0.34039909484212605
+        ]
+      },
+      {
+        "id": 25,
+        "minimum": [
+          0.2389332031192667,
+          -0.00027031250000003615,
+          -0.7977561364037218
+        ],
+        "maximum": [
+          0.6389332031192667,
+          0.3997296875,
+          -0.3977561364037217
+        ]
+      },
+      {
+        "id": 26,
+        "minimum": [
+          0.6009690301444233,
+          -0.0011646418555887605,
+          -0.2955715169138713
+        ],
+        "maximum": [
+          1.1125673215107974,
+          0.358963361273531,
+          0.09442927907029211
+        ]
+      },
+      {
+        "id": 27,
+        "minimum": [
+          -0.8488331885358928,
+          -0.00027031250001052776,
+          -0.3036574430788189
+        ],
+        "maximum": [
+          -0.3501117889547829,
+          0.4797296875000056,
+          0.20857165496819455
+        ]
+      },
+      {
+        "id": 28,
+        "minimum": [
+          -0.42884392706937313,
+          -0.0002703124999999529,
+          0.2692797756242502
+        ],
+        "maximum": [
+          0.001156072930626889,
+          0.42972968750000007,
+          0.6992797756242503
+        ]
+      },
+      {
+        "id": 29,
+        "minimum": [
+          0.8039942577398851,
+          -0.00027031250025713605,
+          0.17684742349322013
+        ],
+        "maximum": [
+          1.2894386554550683,
+          0.3797296875029331,
+          0.767921672415374
+        ]
+      }
+    ],
+    "unchanged_static_bodies": 5,
+    "dynamic_bodies": 30,
+    "completed_steps": 2880,
+    "quaternion_norm_error": 2.220446049250313e-16,
+    "limits": {
+      "transient_m": 0.03,
+      "final_window_m": 0.01,
+      "xz_abs_m": 2.01,
+      "bottom_m": -0.01,
+      "top_m": 2.41
+    },
+    "summary": {
+      "body_counts": {
+        "Prism": 10,
+        "Sphere": 10,
+        "Cylinder": 10
+      },
+      "finite_mass_bodies": 30,
+      "static_colliders": 5,
+      "steps": 2880,
+      "simulated_seconds": 5.99999999999982,
+      "finite_states": true,
+      "max_quaternion_norm_error": 2.220446049250313e-16,
+      "max_penetration_before_m": 0.02027526078997505,
+      "max_penetration_after_m": 0.016251535173982926,
+      "worst_penetration_step": 285,
+      "worst_penetration_pair": [
+        0,
+        6
+      ],
+      "final_two_seconds_max_penetration_m": 0.0012887548119564218,
+      "p95_step_max_penetration_m": 0.0035647158540816903,
+      "final_penetration_m": 0.0011646418555887605,
+      "body_body_impulse_rows": 58754,
+      "body_bin_impulse_rows": 117759,
+      "correction_cap_body_steps": 0,
+      "kinetic_energy_final_j": 0.49507033512501347,
+      "maximum_final_speed_m_s": 0.3882520607141568,
+      "physics_loop_seconds": 1047.9100364000187,
+      "timing_scope": "step_world, contact diagnostics, reports and optional frame sampling; excludes imports, scene setup, rendering and JSON I/O",
+      "escaped_body_ids": []
+    }
+  },
+  "reference": null,
+  "exact_reference_match": true,
+  "final_output_and_audit_seconds": 3.255636699992465,
+  "finished_utc": "2026-11-05T22:57:21.641994+00:00",
+  "pool": null,
+  "trial_total_seconds": 1056.3294374999823
+}

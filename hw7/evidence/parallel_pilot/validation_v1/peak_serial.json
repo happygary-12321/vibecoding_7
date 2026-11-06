@@ -1,0 +1,15 @@
+{
+  "complete": false,
+  "status": "failed",
+  "scene": "peak",
+  "workers": 0,
+  "batch_size": 4,
+  "backend": "serial",
+  "steps": 30,
+  "warmup_steps": 0,
+  "serial_threshold": 0,
+  "error": "ValueError('checkpoint manifest/world mismatch')",
+  "traceback": "Traceback (most recent call last):\n  File \"D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\parallel_pilot.py\", line 87, in trial\n    start, manifest = load(scene, opts)\n                      ^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\parallel_pilot.py\", line 65, in load\n    return provenance.load_checkpoint(STATES[scene], opts, 7, compatibility=MANIFEST)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\profiling.py\", line 154, in load_checkpoint\n    raise ValueError('checkpoint manifest/world mismatch')\nValueError: checkpoint manifest/world mismatch\n",
+  "trial_total_seconds": 0.004437099996721372,
+  "pool": null
+}

@@ -1,0 +1,52 @@
+Command: C:\Users\omen16\AppData\Local\Programs\Python\Python312\python.exe -B -m hw7.parallel_checks tests_v1
+test_all_six_shape_pairs_cache_and_enrich_through_workers (hw7.tests.test_parallel.ParallelTests.test_all_six_shape_pairs_cache_and_enrich_through_workers) ... ok
+test_invalid_settings_closed_pool_and_threshold (hw7.tests.test_parallel.ParallelTests.test_invalid_settings_closed_pool_and_threshold) ... ok
+test_parent_interrupt_cleans_owned_workers (hw7.tests.test_parallel.ParallelTests.test_parent_interrupt_cleans_owned_workers) ... ok
+test_pool_reuse_and_gather_under_forced_reverse_readiness (hw7.tests.test_parallel.ParallelTests.test_pool_reuse_and_gather_under_forced_reverse_readiness) ... ok
+test_rotating_multistep_world_reports_cache_and_both_barriers (hw7.tests.test_parallel.ParallelTests.test_rotating_multistep_world_reports_cache_and_both_barriers) ... ok
+test_stationary_split_exact_zero_energy (hw7.tests.test_parallel.ParallelTests.test_stationary_split_exact_zero_energy) ... ok
+test_worker_error_propagates_and_cleans_without_fallback (hw7.tests.test_parallel.ParallelTests.test_worker_error_propagates_and_cleans_without_fallback) ... ok
+test_cylinder_45_degree_bounds_and_rim_enclosure (hw7.tests.test_geometry.BroadPhaseTests.test_cylinder_45_degree_bounds_and_rim_enclosure) ... ok
+test_invalid_bounds_and_duplicate_ids (hw7.tests.test_geometry.BroadPhaseTests.test_invalid_bounds_and_duplicate_ids) ... ok
+test_oriented_prism_and_sphere_bounds (hw7.tests.test_geometry.BroadPhaseTests.test_oriented_prism_and_sphere_bounds) ... ok
+test_randomized_completeness_and_order (hw7.tests.test_geometry.BroadPhaseTests.test_randomized_completeness_and_order) ... ok
+test_scene_initial_separation_and_static_candidates (hw7.tests.test_geometry.BroadPhaseTests.test_scene_initial_separation_and_static_candidates) ... ok
+test_touching_equal_nested_static_intervals (hw7.tests.test_geometry.BroadPhaseTests.test_touching_equal_nested_static_intervals) ... ok
+test_box_corner_sphere_rejects_aabb_false_positive (hw7.tests.test_geometry.NarrowPhaseTests.test_box_corner_sphere_rejects_aabb_false_positive) ... ok
+test_coincident_spheres_and_prism_containment (hw7.tests.test_geometry.NarrowPhaseTests.test_coincident_spheres_and_prism_containment) ... ok
+test_cylinder_cap_cap_and_perpendicular_interior (hw7.tests.test_geometry.NarrowPhaseTests.test_cylinder_cap_cap_and_perpendicular_interior) ... ok
+test_cylinder_cylinder_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_cylinder_cylinder_separated_touching_penetrating_rotated) ... ok
+test_cylinder_sphere_rim_and_containment (hw7.tests.test_geometry.NarrowPhaseTests.test_cylinder_sphere_rim_and_containment) ... ok
+test_every_bin_face_shape_and_rotation (hw7.tests.test_geometry.NarrowPhaseTests.test_every_bin_face_shape_and_rotation) ... ok
+test_finite_wall_end_not_infinite_plane (hw7.tests.test_geometry.NarrowPhaseTests.test_finite_wall_end_not_infinite_plane) ... ok
+test_iteration_failure_is_explicit (hw7.tests.test_geometry.NarrowPhaseTests.test_iteration_failure_is_explicit) ... ok
+test_prism_cylinder_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_prism_cylinder_separated_touching_penetrating_rotated) ... ok
+test_prism_prism_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_prism_prism_separated_touching_penetrating_rotated) ... ok
+test_prism_sphere_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_prism_sphere_separated_touching_penetrating_rotated) ... ok
+test_rotated_boxes_against_independent_fifteen_axis_sat (hw7.tests.test_geometry.NarrowPhaseTests.test_rotated_boxes_against_independent_fifteen_axis_sat) ... ok
+test_sphere_cylinder_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_sphere_cylinder_separated_touching_penetrating_rotated) ... ok
+test_sphere_sphere_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_sphere_sphere_separated_touching_penetrating_rotated) ... ok
+test_spread_face_cap_and_generatrix_manifolds (hw7.tests.test_geometry.NarrowPhaseTests.test_spread_face_cap_and_generatrix_manifolds) ... ok
+test_anisotropic_world_inertia_and_energy_hand_calculation (hw7.tests.test_solver.ImpulseTests.test_anisotropic_world_inertia_and_energy_hand_calculation) ... ok
+test_coulomb_sticking_contact_velocity (hw7.tests.test_solver.ImpulseTests.test_coulomb_sticking_contact_velocity) ... ok
+test_equal_mass_elastic_swaps_and_conserves (hw7.tests.test_solver.ImpulseTests.test_equal_mass_elastic_swaps_and_conserves) ... ok
+test_equal_mass_inelastic_stops (hw7.tests.test_solver.ImpulseTests.test_equal_mass_inelastic_stops) ... ok
+test_offcenter_world_inertia_angular_and_total_momentum (hw7.tests.test_solver.ImpulseTests.test_offcenter_world_inertia_angular_and_total_momentum) ... ok
+test_rotating_face_approaching_corner_resolved (hw7.tests.test_solver.ImpulseTests.test_rotating_face_approaching_corner_resolved) ... ok
+test_separating_grazing_and_restitution_cutoff (hw7.tests.test_solver.ImpulseTests.test_separating_grazing_and_restitution_cutoff) ... ok
+test_static_floor_restitution_and_friction (hw7.tests.test_solver.ImpulseTests.test_static_floor_restitution_and_friction) ... ok
+test_unequal_mass_restitution_energy_loss (hw7.tests.test_solver.ImpulseTests.test_unequal_mass_restitution_energy_loss) ... ok
+test_free_flight_clocks_and_determinism (hw7.tests.test_solver.SplitAndValidationTests.test_free_flight_clocks_and_determinism) ... ok
+test_invalid_parameters_states_and_immutable_failures (hw7.tests.test_solver.SplitAndValidationTests.test_invalid_parameters_states_and_immutable_failures) ... ok
+test_split_disabled_slop_and_correction_caps (hw7.tests.test_solver.SplitAndValidationTests.test_split_disabled_slop_and_correction_caps) ... ok
+test_stationary_overlap_hand_depth_and_zero_physical_energy (hw7.tests.test_solver.SplitAndValidationTests.test_stationary_overlap_hand_depth_and_zero_physical_energy) ... ok
+test_stationary_rotated_prism_overlap_does_not_create_velocity (hw7.tests.test_solver.SplitAndValidationTests.test_stationary_rotated_prism_overlap_does_not_create_velocity) ... ok
+test_budgeted_profile_returns_nonzero_and_saves_partial (hw7.tests.test_profiling.ProfilingTests.test_budgeted_profile_returns_nonzero_and_saves_partial) ... ok
+test_stage_and_plain_collision_results_are_exact (hw7.tests.test_profiling.ProfilingTests.test_stage_and_plain_collision_results_are_exact) ... ok
+test_static_shared_bin_does_not_join_dynamic_islands (hw7.tests.test_profiling.ProfilingTests.test_static_shared_bin_does_not_join_dynamic_islands) ... ok
+test_wrapped_bindings_restore_on_failure (hw7.tests.test_profiling.ProfilingTests.test_wrapped_bindings_restore_on_failure) ... ok
+
+----------------------------------------------------------------------
+Ran 46 tests in 4.756s
+
+OK

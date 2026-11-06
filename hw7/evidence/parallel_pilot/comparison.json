@@ -1,0 +1,1002 @@
+{
+  "complete": true,
+  "source_approval": "compatibility_v3.json",
+  "repeats": [
+    {
+      "scene": "peak",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        12.643301700009033,
+        12.586456699995324,
+        13.126816399977542
+      ],
+      "median_seconds": 12.643301700009033,
+      "sample_stdev_seconds": 0.2969305262394638,
+      "cold_invocation_raw_seconds": [
+        14.1172889,
+        14.0476677,
+        14.571543499999999
+      ],
+      "trial_total_raw_seconds": [
+        13.697481400013203,
+        13.627427200000966,
+        14.168573000002652
+      ],
+      "warmup_raw_seconds": [
+        1.029764000006253,
+        1.018475299992133,
+        1.0185094999906141
+      ],
+      "startup_raw_seconds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shutdown_raw_seconds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "measured_dispatch": [
+        null,
+        null,
+        null
+      ],
+      "measured_worker_pairs": [
+        null,
+        null,
+        null
+      ],
+      "active_workers": [
+        0,
+        0,
+        0
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 1.0,
+      "cold_invocation_speedup": 1.0
+    },
+    {
+      "scene": "peak",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        4.598483300011139,
+        4.613957900000969,
+        4.556810599984601
+      ],
+      "median_seconds": 4.598483300011139,
+      "sample_stdev_seconds": 0.02955754576953186,
+      "cold_invocation_raw_seconds": [
+        5.8812603999999995,
+        5.8690723,
+        5.7932331
+      ],
+      "trial_total_raw_seconds": [
+        5.443714799999725,
+        5.455513599998085,
+        5.396914599987213
+      ],
+      "warmup_raw_seconds": [
+        0.45084169998881407,
+        0.4459064000111539,
+        0.44233779999194667
+      ],
+      "startup_raw_seconds": [
+        0.32319539997843094,
+        0.31831629999214783,
+        0.3239214999775868
+      ],
+      "shutdown_raw_seconds": [
+        0.04096199999912642,
+        0.051112899993313476,
+        0.0525070000148844
+      ],
+      "measured_dispatch": [
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 1650,
+          "worker_pairs": 1650,
+          "batches": 420,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 1650,
+          "worker_pairs": 1650,
+          "batches": 420,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 1650,
+          "worker_pairs": 1650,
+          "batches": 420,
+          "diagnostic_calls": 30
+        }
+      ],
+      "measured_worker_pairs": [
+        {
+          "46240": 480,
+          "42476": 480,
+          "2320": 253,
+          "11892": 437
+        },
+        {
+          "34412": 480,
+          "54804": 480,
+          "43944": 249,
+          "45372": 441
+        },
+        {
+          "13116": 480,
+          "34160": 480,
+          "47012": 249,
+          "34004": 441
+        }
+      ],
+      "active_workers": [
+        4,
+        4,
+        4
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 2.7494503894313165,
+      "cold_invocation_speedup": 2.405369737905597
+    },
+    {
+      "scene": "peak",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        3.7392719000054058,
+        3.6147028999985196,
+        3.6541154999868013
+      ],
+      "median_seconds": 3.6541154999868013,
+      "sample_stdev_seconds": 0.06366893704243394,
+      "cold_invocation_raw_seconds": [
+        4.9941993,
+        4.8394867,
+        4.864186699999999
+      ],
+      "trial_total_raw_seconds": [
+        4.568080500001088,
+        4.425098899984732,
+        4.4553802000009455
+      ],
+      "warmup_raw_seconds": [
+        0.36441529999137856,
+        0.3602864999847952,
+        0.3593624000204727
+      ],
+      "startup_raw_seconds": [
+        0.3790537999884691,
+        0.3685782999964431,
+        0.3612501999887172
+      ],
+      "shutdown_raw_seconds": [
+        0.06396190001396462,
+        0.05416920001152903,
+        0.05622929998207837
+      ],
+      "measured_dispatch": [
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 1650,
+          "worker_pairs": 1650,
+          "batches": 420,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 1650,
+          "worker_pairs": 1650,
+          "batches": 420,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 1650,
+          "worker_pairs": 1650,
+          "batches": 420,
+          "diagnostic_calls": 30
+        }
+      ],
+      "measured_worker_pairs": [
+        {
+          "6052": 240,
+          "55156": 240,
+          "43500": 240,
+          "25008": 240,
+          "50788": 240,
+          "6092": 210,
+          "46708": 240
+        },
+        {
+          "22644": 240,
+          "52744": 240,
+          "49512": 240,
+          "43200": 240,
+          "16252": 240,
+          "41320": 210,
+          "50504": 240
+        },
+        {
+          "49932": 240,
+          "51688": 240,
+          "46324": 240,
+          "56984": 240,
+          "38316": 240,
+          "10652": 210,
+          "45720": 240
+        }
+      ],
+      "active_workers": [
+        7,
+        7,
+        7
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 3.4600169863417567,
+      "cold_invocation_speedup": 2.9022917438592564
+    },
+    {
+      "scene": "impacts",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        5.70406630000798,
+        5.727324100007536,
+        5.669591300014872
+      ],
+      "median_seconds": 5.70406630000798,
+      "sample_stdev_seconds": 0.02904745278659576,
+      "cold_invocation_raw_seconds": [
+        6.771319,
+        6.7706010999999995,
+        6.749068299999999
+      ],
+      "trial_total_raw_seconds": [
+        6.364956900011748,
+        6.372227699990617,
+        6.332040700013749
+      ],
+      "warmup_raw_seconds": [
+        0.6401099000067916,
+        0.6268888000049628,
+        0.6426909000147134
+      ],
+      "startup_raw_seconds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shutdown_raw_seconds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "measured_dispatch": [
+        null,
+        null,
+        null
+      ],
+      "measured_worker_pairs": [
+        null,
+        null,
+        null
+      ],
+      "active_workers": [
+        0,
+        0,
+        0
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 1.0,
+      "cold_invocation_speedup": 1.0
+    },
+    {
+      "scene": "impacts",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        2.7347167000116315,
+        2.6927825000020675,
+        2.7306731999851763
+      ],
+      "median_seconds": 2.7306731999851763,
+      "sample_stdev_seconds": 0.02313198423581519,
+      "cold_invocation_raw_seconds": [
+        3.8608333,
+        3.8227436999999997,
+        3.8243408999999997
+      ],
+      "trial_total_raw_seconds": [
+        3.4501488000096288,
+        3.4137786999926902,
+        3.435901199991349
+      ],
+      "warmup_raw_seconds": [
+        0.3293302000092808,
+        0.32761930002016015,
+        0.32731130000320263
+      ],
+      "startup_raw_seconds": [
+        0.3225620000157505,
+        0.32259589998284355,
+        0.3159964999940712
+      ],
+      "shutdown_raw_seconds": [
+        0.044325700000626966,
+        0.053294200013624504,
+        0.04241520000505261
+      ],
+      "measured_dispatch": [
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 2121,
+          "worker_pairs": 2121,
+          "batches": 554,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 2121,
+          "worker_pairs": 2121,
+          "batches": 554,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 2121,
+          "worker_pairs": 2121,
+          "batches": 554,
+          "diagnostic_calls": 30
+        }
+      ],
+      "measured_worker_pairs": [
+        {
+          "15848": 467,
+          "32240": 602,
+          "44380": 644,
+          "52380": 408
+        },
+        {
+          "9104": 464,
+          "9596": 661,
+          "56284": 610,
+          "8840": 386
+        },
+        {
+          "51552": 468,
+          "47160": 641,
+          "36556": 619,
+          "36892": 393
+        }
+      ],
+      "active_workers": [
+        4,
+        4,
+        4
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 2.088886469475346,
+      "cold_invocation_speedup": 1.770396854527273
+    },
+    {
+      "scene": "impacts",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        2.6700993000122253,
+        2.6722559000190813,
+        2.65768420000677
+      ],
+      "median_seconds": 2.6700993000122253,
+      "sample_stdev_seconds": 0.007864689790278044,
+      "cold_invocation_raw_seconds": [
+        3.865297,
+        3.8616807,
+        3.8472754
+      ],
+      "trial_total_raw_seconds": [
+        3.4518623999902047,
+        3.44789569999557,
+        3.4380753000150435
+      ],
+      "warmup_raw_seconds": [
+        0.32839040001272224,
+        0.32705280001391657,
+        0.3274898999952711
+      ],
+      "startup_raw_seconds": [
+        0.37636719999136403,
+        0.3729577000194695,
+        0.36936720000812784
+      ],
+      "shutdown_raw_seconds": [
+        0.05951319998712279,
+        0.0597414999792818,
+        0.06508359999861568
+      ],
+      "measured_dispatch": [
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 2121,
+          "worker_pairs": 2121,
+          "batches": 554,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 2121,
+          "worker_pairs": 2121,
+          "batches": 554,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 2121,
+          "worker_pairs": 2121,
+          "batches": 554,
+          "diagnostic_calls": 30
+        }
+      ],
+      "measured_worker_pairs": [
+        {
+          "2968": 357,
+          "49676": 249,
+          "56244": 263,
+          "43196": 240,
+          "21548": 240,
+          "1744": 292,
+          "41036": 240,
+          "18096": 240
+        },
+        {
+          "5940": 355,
+          "55336": 252,
+          "42920": 262,
+          "23184": 240,
+          "35848": 240,
+          "43548": 292,
+          "50204": 240,
+          "51060": 240
+        },
+        {
+          "3172": 348,
+          "5960": 255,
+          "9716": 262,
+          "36452": 240,
+          "35740": 240,
+          "19452": 296,
+          "37068": 240,
+          "45188": 240
+        }
+      ],
+      "active_workers": [
+        8,
+        8,
+        8
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 2.1362749692424785,
+      "cold_invocation_speedup": 1.7532783329289756
+    },
+    {
+      "scene": "pile",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        14.93512819998432,
+        14.82508969999617,
+        14.357982199988328
+      ],
+      "median_seconds": 14.82508969999617,
+      "sample_stdev_seconds": 0.30642981615006915,
+      "cold_invocation_raw_seconds": [
+        16.9425155,
+        16.8285864,
+        16.3457723
+      ],
+      "trial_total_raw_seconds": [
+        16.540005099988775,
+        16.44663920000312,
+        15.947427799983416
+      ],
+      "warmup_raw_seconds": [
+        1.5539124000060838,
+        1.5884786999959033,
+        1.5460307000030298
+      ],
+      "startup_raw_seconds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "shutdown_raw_seconds": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "measured_dispatch": [
+        null,
+        null,
+        null
+      ],
+      "measured_worker_pairs": [
+        null,
+        null,
+        null
+      ],
+      "active_workers": [
+        0,
+        0,
+        0
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 1.0,
+      "cold_invocation_speedup": 1.0
+    },
+    {
+      "scene": "pile",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        5.069196299999021,
+        5.124399099993752,
+        4.876094100007322
+      ],
+      "median_seconds": 5.069196299999021,
+      "sample_stdev_seconds": 0.13037841193180325,
+      "cold_invocation_raw_seconds": [
+        6.5296588,
+        6.5505263,
+        6.2814977
+      ],
+      "trial_total_raw_seconds": [
+        6.107423099980224,
+        6.14352409998537,
+        5.8921187999949325
+      ],
+      "warmup_raw_seconds": [
+        0.6275132999871857,
+        0.632514099997934,
+        0.6307656000135466
+      ],
+      "startup_raw_seconds": [
+        0.3188404999964405,
+        0.31768549999105744,
+        0.31371660000877455
+      ],
+      "shutdown_raw_seconds": [
+        0.03892869999981485,
+        0.03738789999624714,
+        0.039374300016788766
+      ],
+      "measured_dispatch": [
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 3420,
+          "worker_pairs": 3420,
+          "batches": 900,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 3420,
+          "worker_pairs": 3420,
+          "batches": 900,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 3420,
+          "worker_pairs": 3420,
+          "batches": 900,
+          "diagnostic_calls": 30
+        }
+      ],
+      "measured_worker_pairs": [
+        {
+          "24420": 553,
+          "48504": 1461,
+          "43012": 1106,
+          "47244": 300
+        },
+        {
+          "16936": 581,
+          "50712": 1439,
+          "9096": 1111,
+          "2856": 289
+        },
+        {
+          "51860": 582,
+          "3640": 1464,
+          "27288": 1097,
+          "9772": 277
+        }
+      ],
+      "active_workers": [
+        4,
+        4,
+        4
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 2.9245444095347093,
+      "cold_invocation_speedup": 2.57725356185533
+    },
+    {
+      "scene": "pile",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        4.208974500012118,
+        4.180485299992142,
+        4.1894318999839015
+      ],
+      "median_seconds": 4.1894318999839015,
+      "sample_stdev_seconds": 0.014569313556545343,
+      "cold_invocation_raw_seconds": [
+        5.703358499999999,
+        5.6789635999999994,
+        5.6707871
+      ],
+      "trial_total_raw_seconds": [
+        5.278825700021116,
+        5.261421499977587,
+        5.26320190000115
+      ],
+      "warmup_raw_seconds": [
+        0.5913824000163004,
+        0.5970237000146881,
+        0.5975061999924947
+      ],
+      "startup_raw_seconds": [
+        0.3718243000039365,
+        0.36934149998705834,
+        0.37142509999102913
+      ],
+      "shutdown_raw_seconds": [
+        0.05614210001658648,
+        0.055196300003444776,
+        0.05349019999266602
+      ],
+      "measured_dispatch": [
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 3420,
+          "worker_pairs": 3420,
+          "batches": 900,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 3420,
+          "worker_pairs": 3420,
+          "batches": 900,
+          "diagnostic_calls": 30
+        },
+        {
+          "trial_calls": 30,
+          "candidate_pairs": 3420,
+          "worker_pairs": 3420,
+          "batches": 900,
+          "diagnostic_calls": 30
+        }
+      ],
+      "measured_worker_pairs": [
+        {
+          "38052": 573,
+          "38020": 611,
+          "37196": 627,
+          "3320": 625,
+          "16148": 264,
+          "53896": 240,
+          "54100": 240,
+          "13516": 240
+        },
+        {
+          "5196": 575,
+          "35252": 599,
+          "48316": 646,
+          "49584": 619,
+          "20788": 261,
+          "51616": 240,
+          "2176": 240,
+          "8348": 240
+        },
+        {
+          "53744": 601,
+          "41600": 610,
+          "55496": 609,
+          "32952": 611,
+          "35896": 269,
+          "11844": 240,
+          "56400": 240,
+          "56096": 240
+        }
+      ],
+      "active_workers": [
+        8,
+        8,
+        8
+      ],
+      "world_cache_reports_exact": true,
+      "speedup": 3.5386873575992817,
+      "cold_invocation_speedup": 2.9633199973319075
+    }
+  ],
+  "screen": [
+    {
+      "scene": "peak",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        12.834334500017576
+      ],
+      "median_seconds": 12.834334500017576,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 1.0
+    },
+    {
+      "scene": "peak",
+      "workers": 2,
+      "batch_size": 4,
+      "raw_seconds": [
+        6.884842500003288
+      ],
+      "median_seconds": 6.884842500003288,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 1.8641435152672625
+    },
+    {
+      "scene": "peak",
+      "workers": 2,
+      "batch_size": 8,
+      "raw_seconds": [
+        6.871136100002332
+      ],
+      "median_seconds": 6.871136100002332,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 1.8678620701477913
+    },
+    {
+      "scene": "peak",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        4.644409900007304
+      ],
+      "median_seconds": 4.644409900007304,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.7633940105065644
+    },
+    {
+      "scene": "peak",
+      "workers": 4,
+      "batch_size": 8,
+      "raw_seconds": [
+        4.999107000010554
+      ],
+      "median_seconds": 4.999107000010554,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.5673254243188794
+    },
+    {
+      "scene": "peak",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        3.823137700004736
+      ],
+      "median_seconds": 3.823137700004736,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 3.3570160185445785
+    },
+    {
+      "scene": "peak",
+      "workers": 8,
+      "batch_size": 8,
+      "raw_seconds": [
+        5.064263600012055
+      ],
+      "median_seconds": 5.064263600012055,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.534294324645152
+    },
+    {
+      "scene": "impacts",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        6.676270099997055
+      ],
+      "median_seconds": 6.676270099997055,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 1.0
+    },
+    {
+      "scene": "impacts",
+      "workers": 2,
+      "batch_size": 4,
+      "raw_seconds": [
+        3.1498365000006743
+      ],
+      "median_seconds": 3.1498365000006743,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.1195608406962156
+    },
+    {
+      "scene": "impacts",
+      "workers": 2,
+      "batch_size": 8,
+      "raw_seconds": [
+        3.248688400024548
+      ],
+      "median_seconds": 3.248688400024548,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.0550663153617954
+    },
+    {
+      "scene": "impacts",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        2.8089563000248745
+      ],
+      "median_seconds": 2.8089563000248745,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.3767796244953807
+    },
+    {
+      "scene": "impacts",
+      "workers": 4,
+      "batch_size": 8,
+      "raw_seconds": [
+        2.9858093000075314
+      ],
+      "median_seconds": 2.9858093000075314,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.236000169193731
+    },
+    {
+      "scene": "impacts",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        2.7054686000046786
+      ],
+      "median_seconds": 2.7054686000046786,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.46769454281802
+    },
+    {
+      "scene": "impacts",
+      "workers": 8,
+      "batch_size": 8,
+      "raw_seconds": [
+        3.024406899989117
+      ],
+      "median_seconds": 3.024406899989117,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.2074642469639514
+    },
+    {
+      "scene": "pile",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        15.190627300005872
+      ],
+      "median_seconds": 15.190627300005872,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 1.0
+    },
+    {
+      "scene": "pile",
+      "workers": 2,
+      "batch_size": 4,
+      "raw_seconds": [
+        7.631091999995988
+      ],
+      "median_seconds": 7.631091999995988,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 1.9906230065125488
+    },
+    {
+      "scene": "pile",
+      "workers": 2,
+      "batch_size": 8,
+      "raw_seconds": [
+        9.056644500000402
+      ],
+      "median_seconds": 9.056644500000402,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 1.6772908884747764
+    },
+    {
+      "scene": "pile",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        5.343803099996876
+      ],
+      "median_seconds": 5.343803099996876,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.8426622418057943
+    },
+    {
+      "scene": "pile",
+      "workers": 4,
+      "batch_size": 8,
+      "raw_seconds": [
+        6.225237200007541
+      ],
+      "median_seconds": 6.225237200007541,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 2.4401684324554687
+    },
+    {
+      "scene": "pile",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        4.206910900014918
+      ],
+      "median_seconds": 4.206910900014918,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 3.6108745017518684
+    },
+    {
+      "scene": "pile",
+      "workers": 8,
+      "batch_size": 8,
+      "raw_seconds": [
+        4.966622800013283
+      ],
+      "median_seconds": 4.966622800013283,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true,
+      "speedup": 3.0585425774563038
+    }
+  ],
+  "selected": {
+    "workers": 8,
+    "batch_size": 4,
+    "serial_threshold": 0
+  },
+  "scope": "Three 30-step (.0625 simulated second) cached intervals, not the complete 2880-step scene.",
+  "correctness": "Historical serial pickle digests reproduced; direct Python serial/parallel equality passed in validation_v3. Every screen/repeat canonical value digest exactly equals that reference.",
+  "timing": "Unprofiled entire stepping/report loop, both detection barriers, all IPC/gather/synchronization and unchanged serial solver; excludes load/setup/warmup/output/rendering, no frame sampling.",
+  "warmup": "4 discarded steps from same genuine starting world, reset physical/cache state before timing; pool reused across warmup and measured steps; fresh pool per trial.",
+  "total": "Caller cold_invocation includes Python process/imports, checkpoint validation/loading, readiness, warmup, stepping, digest construction, shutdown, output. It excludes the wrapper JSON write.",
+  "limitations": [
+    "No whole-scene acceleration measurement",
+    "No inference from historical 1151 s acceptance",
+    "Actual native pool sizes/thermal history/background load not independently controlled",
+    "Startup/temp I/O and trial variance are machine-specific"
+  ]
+}

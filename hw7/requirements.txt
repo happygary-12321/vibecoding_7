@@ -1,0 +1,6 @@
+# Existing local dependencies; nothing is installed automatically.
+# ConvexHull constructs/rebuilds the exact-support EPA polytope; NumPy is SciPy's array dependency.
+numpy>=2.3,<3
+scipy>=1.17,<2
+# Optional for --snapshot/--show; not imported by headless physics.
+matplotlib>=3.10,<4

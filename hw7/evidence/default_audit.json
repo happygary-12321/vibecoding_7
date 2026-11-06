@@ -1,0 +1,39 @@
+{
+  "source": "hw7\\evidence\\serial_default.json",
+  "accepted": true,
+  "full_geometry_outside_ids": [],
+  "final_max_speed_m_s": 0.3882520607141568,
+  "final_kinetic_j": 0.49507033512501347,
+  "summary": {
+    "body_counts": {
+      "Prism": 10,
+      "Sphere": 10,
+      "Cylinder": 10
+    },
+    "finite_mass_bodies": 30,
+    "static_colliders": 5,
+    "steps": 2880,
+    "simulated_seconds": 5.99999999999982,
+    "finite_states": true,
+    "max_quaternion_norm_error": 2.220446049250313e-16,
+    "max_penetration_before_m": 0.02027526078997505,
+    "max_penetration_after_m": 0.016251535173982926,
+    "worst_penetration_step": 285,
+    "worst_penetration_pair": [
+      0,
+      6
+    ],
+    "final_two_seconds_max_penetration_m": 0.0012887548119564218,
+    "p95_step_max_penetration_m": 0.0035647158540816903,
+    "final_penetration_m": 0.0011646418555887605,
+    "body_body_impulse_rows": 58754,
+    "body_bin_impulse_rows": 117759,
+    "correction_cap_body_steps": 0,
+    "kinetic_energy_final_j": 0.49507033512501347,
+    "maximum_final_speed_m_s": 0.3882520607141568,
+    "physics_loop_seconds": 1151.3943471999955,
+    "timing_scope": "step_world, contact diagnostics, reports and optional frame sampling; excludes imports, scene setup, rendering and JSON I/O",
+    "escaped_body_ids": [],
+    "rendering_and_optional_gui_wait_seconds": 0.8160686999908648
+  }
+}

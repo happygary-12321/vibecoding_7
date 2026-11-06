@@ -1,0 +1,94 @@
+Command: C:\Users\omen16\AppData\Local\Programs\Python\Python312\python.exe -B -m hw7.verify --suite hw7
+Python: 3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]
+test_cylinder_45_degree_bounds_and_rim_enclosure (hw7.tests.test_geometry.BroadPhaseTests.test_cylinder_45_degree_bounds_and_rim_enclosure) ... ok
+test_oriented_prism_and_sphere_bounds (hw7.tests.test_geometry.BroadPhaseTests.test_oriented_prism_and_sphere_bounds) ... ok
+test_randomized_completeness_and_order (hw7.tests.test_geometry.BroadPhaseTests.test_randomized_completeness_and_order) ... ok
+test_scene_initial_separation_and_static_candidates (hw7.tests.test_geometry.BroadPhaseTests.test_scene_initial_separation_and_static_candidates) ... ok
+test_touching_equal_nested_static_intervals (hw7.tests.test_geometry.BroadPhaseTests.test_touching_equal_nested_static_intervals) ... ok
+test_box_corner_sphere_rejects_aabb_false_positive (hw7.tests.test_geometry.NarrowPhaseTests.test_box_corner_sphere_rejects_aabb_false_positive) ... ok
+test_coincident_spheres_and_prism_containment (hw7.tests.test_geometry.NarrowPhaseTests.test_coincident_spheres_and_prism_containment) ... ok
+test_cylinder_cap_cap_and_perpendicular_interior (hw7.tests.test_geometry.NarrowPhaseTests.test_cylinder_cap_cap_and_perpendicular_interior) ... ok
+test_cylinder_cylinder_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_cylinder_cylinder_separated_touching_penetrating_rotated) ... ok
+test_cylinder_sphere_rim_and_containment (hw7.tests.test_geometry.NarrowPhaseTests.test_cylinder_sphere_rim_and_containment) ... ok
+test_every_bin_face_shape_and_rotation (hw7.tests.test_geometry.NarrowPhaseTests.test_every_bin_face_shape_and_rotation) ... ok
+test_finite_wall_end_not_infinite_plane (hw7.tests.test_geometry.NarrowPhaseTests.test_finite_wall_end_not_infinite_plane) ... ok
+test_iteration_failure_is_explicit (hw7.tests.test_geometry.NarrowPhaseTests.test_iteration_failure_is_explicit) ... ok
+test_prism_cylinder_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_prism_cylinder_separated_touching_penetrating_rotated) ... ok
+test_prism_prism_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_prism_prism_separated_touching_penetrating_rotated) ... ok
+test_prism_sphere_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_prism_sphere_separated_touching_penetrating_rotated) ... ok
+test_rotated_boxes_against_independent_fifteen_axis_sat (hw7.tests.test_geometry.NarrowPhaseTests.test_rotated_boxes_against_independent_fifteen_axis_sat) ... ok
+test_sphere_cylinder_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_sphere_cylinder_separated_touching_penetrating_rotated) ... ok
+test_sphere_sphere_separated_touching_penetrating_rotated (hw7.tests.test_geometry.NarrowPhaseTests.test_sphere_sphere_separated_touching_penetrating_rotated) ... ok
+test_spread_face_cap_and_generatrix_manifolds (hw7.tests.test_geometry.NarrowPhaseTests.test_spread_face_cap_and_generatrix_manifolds) ... ok
+test_equal_mass_elastic_swaps_and_conserves (hw7.tests.test_solver.ImpulseTests.test_equal_mass_elastic_swaps_and_conserves) ... ok
+test_equal_mass_inelastic_stops (hw7.tests.test_solver.ImpulseTests.test_equal_mass_inelastic_stops) ... ok
+test_offcenter_world_inertia_angular_and_total_momentum (hw7.tests.test_solver.ImpulseTests.test_offcenter_world_inertia_angular_and_total_momentum) ... ok
+test_rotating_face_approaching_corner_resolved (hw7.tests.test_solver.ImpulseTests.test_rotating_face_approaching_corner_resolved) ... ok
+test_separating_grazing_and_restitution_cutoff (hw7.tests.test_solver.ImpulseTests.test_separating_grazing_and_restitution_cutoff) ... ok
+test_static_floor_restitution_and_friction (hw7.tests.test_solver.ImpulseTests.test_static_floor_restitution_and_friction) ... ok
+test_unequal_mass_restitution_energy_loss (hw7.tests.test_solver.ImpulseTests.test_unequal_mass_restitution_energy_loss) ... ok
+test_free_flight_clocks_and_determinism (hw7.tests.test_solver.SplitAndValidationTests.test_free_flight_clocks_and_determinism) ... ok
+test_invalid_parameters_states_and_immutable_failures (hw7.tests.test_solver.SplitAndValidationTests.test_invalid_parameters_states_and_immutable_failures) ... ok
+test_split_disabled_slop_and_correction_caps (hw7.tests.test_solver.SplitAndValidationTests.test_split_disabled_slop_and_correction_caps) ... ok
+test_stationary_overlap_hand_depth_and_zero_physical_energy (hw7.tests.test_solver.SplitAndValidationTests.test_stationary_overlap_hand_depth_and_zero_physical_energy) ... ok
+test_stationary_rotated_prism_overlap_does_not_create_velocity (hw7.tests.test_solver.SplitAndValidationTests.test_stationary_rotated_prism_overlap_does_not_create_velocity) ... ok
+test_headless_cli_and_json (hw7.tests.test_system.ExampleTests.test_headless_cli_and_json) ... {
+  "body_counts": {
+    "Prism": 10,
+    "Sphere": 10,
+    "Cylinder": 10
+  },
+  "finite_mass_bodies": 30,
+  "static_colliders": 5,
+  "steps": 2,
+  "simulated_seconds": 0.004166666666666667,
+  "finite_states": true,
+  "max_quaternion_norm_error": 3.3306690738754696e-16,
+  "max_penetration_before_m": 0.0,
+  "max_penetration_after_m": 0.0,
+  "worst_penetration_step": 1,
+  "worst_penetration_pair": null,
+  "final_two_seconds_max_penetration_m": 0.0,
+  "p95_step_max_penetration_m": 0.0,
+  "final_penetration_m": 0.0,
+  "body_body_impulse_rows": 0,
+  "body_bin_impulse_rows": 0,
+  "correction_cap_body_steps": 0,
+  "kinetic_energy_final_j": 0.041735764960148934,
+  "maximum_final_speed_m_s": 0.040875,
+  "physics_loop_seconds": 0.005412899990915321,
+  "timing_scope": "step_world, contact diagnostics, reports and optional frame sampling; excludes imports, scene setup, rendering and JSON I/O",
+  "escaped_body_ids": []
+}
+ok
+test_thirty_body_three_second_contact_smoke (hw7.tests.test_system.ExampleTests.test_thirty_body_three_second_contact_smoke) ... 
+30-body 3 s smoke: {"body_bin_impulse_rows": 37599, "body_body_impulse_rows": 28357, "body_counts": {"Cylinder": 10, "Prism": 10, "Sphere": 10}, "correction_cap_body_steps": 0, "escaped_body_ids": [], "final_penetration_m": 0.0011637954598744393, "final_two_seconds_max_penetration_m": 0.008543099178399377, "finite_mass_bodies": 30, "finite_states": true, "kinetic_energy_final_j": 1.5439346193831416, "max_penetration_after_m": 0.016251535173982926, "max_penetration_before_m": 0.02027526078997505, "max_quaternion_norm_error": 3.3306690738754696e-16, "maximum_final_speed_m_s": 1.1570227222229534, "p95_step_max_penetration_m": 0.006468898627107034, "physics_loop_seconds": 228.70657609999762, "simulated_seconds": 2.99999999999999, "static_colliders": 5, "steps": 1440, "timing_scope": "step_world, contact diagnostics, reports and optional frame sampling; excludes imports, scene setup, rendering and JSON I/O", "worst_penetration_pair": [0, 6], "worst_penetration_step": 285}
+ok
+test_horizontal_cylinder_resting_ten_seconds (hw7.tests.test_system.RestingAndStackingTests.test_horizontal_cylinder_resting_ten_seconds) ... 
+rest fixture Cylinder count=1: max_depth=0.00078125, final_depth=0.00078125, max_speed=1.73472348e-18
+ok
+test_prism_resting_ten_seconds (hw7.tests.test_system.RestingAndStackingTests.test_prism_resting_ten_seconds) ... 
+rest fixture Prism count=1: max_depth=0.00078125, final_depth=0.00078125, max_speed=1.10567361e-18
+ok
+test_sphere_resting_ten_seconds (hw7.tests.test_system.RestingAndStackingTests.test_sphere_resting_ten_seconds) ... 
+rest fixture Sphere count=1: max_depth=0.00078125, final_depth=0.00078125, max_speed=7.70371978e-34
+ok
+test_three_box_stack_ten_seconds (hw7.tests.test_system.RestingAndStackingTests.test_three_box_stack_ten_seconds) ... 
+rest fixture Prism count=3: max_depth=0.000851176925, final_depth=0.00083051106, max_speed=0.000279270183
+ok
+test_three_cylinder_stack_ten_seconds (hw7.tests.test_system.RestingAndStackingTests.test_three_cylinder_stack_ten_seconds) ... 
+rest fixture Cylinder count=3: max_depth=0.000847272726, final_depth=0.000836187301, max_speed=0.000464083337
+ok
+test_timestep_refinement_reduces_resting_penetration (hw7.tests.test_system.RestingAndStackingTests.test_timestep_refinement_reduces_resting_penetration) ... 
+rest fixture Sphere count=1: max_depth=0.00078125, final_depth=0.00078125, max_speed=7.70371978e-34
+
+rest fixture Sphere count=1: max_depth=0.0002703125, final_depth=0.0002703125, max_speed=0
+ok
+test_upright_cylinder_resting_ten_seconds (hw7.tests.test_system.RestingAndStackingTests.test_upright_cylinder_resting_ten_seconds) ... 
+rest fixture Cylinder count=1: max_depth=0.00078125, final_depth=0.00078125, max_speed=8.05891202e-19
+ok
+
+----------------------------------------------------------------------
+Ran 41 tests in 374.199s
+
+OK

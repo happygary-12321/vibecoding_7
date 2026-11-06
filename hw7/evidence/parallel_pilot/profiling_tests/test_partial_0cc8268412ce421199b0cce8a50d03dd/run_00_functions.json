@@ -1,0 +1,830 @@
+[
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\world.py",
+    "line": 43,
+    "function": "step_world",
+    "primitive_calls": 1,
+    "calls": 1,
+    "self_seconds": 0.00016790000000000002,
+    "cumulative_seconds": 0.0121198
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\rigid.py",
+    "line": 87,
+    "function": "advance",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 0.0002089,
+    "cumulative_seconds": 0.0044610000000000006
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 23,
+    "function": "quaternion",
+    "primitive_calls": 470,
+    "calls": 470,
+    "self_seconds": 0.0013862000000000002,
+    "cumulative_seconds": 0.004393
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 21,
+    "function": "_vector",
+    "primitive_calls": 1070,
+    "calls": 1070,
+    "self_seconds": 0.0008715000000000001,
+    "cumulative_seconds": 0.0032997
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 49,
+    "function": "unrotate",
+    "primitive_calls": 90,
+    "calls": 90,
+    "self_seconds": 6.29e-05,
+    "cumulative_seconds": 0.0028454
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 9,
+    "function": "_scalar",
+    "primitive_calls": 5420,
+    "calls": 5420,
+    "self_seconds": 0.0017392000000000002,
+    "cumulative_seconds": 0.0027888
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 42,
+    "function": "rotate",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 0.0002165,
+    "cumulative_seconds": 0.0025307000000000003
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\world.py",
+    "line": 28,
+    "function": "detect",
+    "primitive_calls": 2,
+    "calls": 2,
+    "self_seconds": 2.3800000000000003e-05,
+    "cumulative_seconds": 0.0023644
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 24,
+    "function": "<genexpr>",
+    "primitive_calls": 4280,
+    "calls": 4280,
+    "self_seconds": 0.000602,
+    "cumulative_seconds": 0.0022826
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\rigid.py",
+    "line": 18,
+    "function": "__post_init__",
+    "primitive_calls": 90,
+    "calls": 90,
+    "self_seconds": 0.0001907,
+    "cumulative_seconds": 0.0020610000000000003
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\world.py",
+    "line": 31,
+    "function": "<genexpr>",
+    "primitive_calls": 72,
+    "calls": 72,
+    "self_seconds": 5.25e-05,
+    "cumulative_seconds": 0.0019341000000000002
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 69,
+    "function": "world_aabb",
+    "primitive_calls": 70,
+    "calls": 70,
+    "self_seconds": 0.0002132,
+    "cumulative_seconds": 0.0018334000000000002
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 84,
+    "function": "to_matrix",
+    "primitive_calls": 140,
+    "calls": 140,
+    "self_seconds": 8.790000000000001e-05,
+    "cumulative_seconds": 0.0014006000000000001
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 27,
+    "function": "<genexpr>",
+    "primitive_calls": 2350,
+    "calls": 2350,
+    "self_seconds": 0.0003343,
+    "cumulative_seconds": 0.0012747000000000001
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 43,
+    "function": "__init__",
+    "primitive_calls": 105,
+    "calls": 105,
+    "self_seconds": 4.4800000000000005e-05,
+    "cumulative_seconds": 0.0011495000000000001
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 36,
+    "function": "__post_init__",
+    "primitive_calls": 150,
+    "calls": 150,
+    "self_seconds": 0.00013690000000000002,
+    "cumulative_seconds": 0.0011252
+  },
+  {
+    "file": "C:\\Users\\omen16\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dataclasses.py",
+    "line": 1540,
+    "function": "replace",
+    "primitive_calls": 90,
+    "calls": 90,
+    "self_seconds": 0.0001644,
+    "cumulative_seconds": 0.0010501
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.isinstance>",
+    "primitive_calls": 12954,
+    "calls": 12954,
+    "self_seconds": 0.0008544000000000001,
+    "cumulative_seconds": 0.0008544000000000001
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.max>",
+    "primitive_calls": 604,
+    "calls": 604,
+    "self_seconds": 0.00026490000000000004,
+    "cumulative_seconds": 0.0006812000000000001
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 15,
+    "function": "dot",
+    "primitive_calls": 500,
+    "calls": 500,
+    "self_seconds": 0.0001652,
+    "cumulative_seconds": 0.0006552
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 58,
+    "function": "step",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 0.0001183,
+    "cumulative_seconds": 0.0006538000000000001
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.sum>",
+    "primitive_calls": 590,
+    "calls": 590,
+    "self_seconds": 0.00030470000000000003,
+    "cumulative_seconds": 0.0006022
+  },
+  {
+    "file": "<string>",
+    "line": 2,
+    "function": "__init__",
+    "primitive_calls": 70,
+    "calls": 70,
+    "self_seconds": 2.83e-05,
+    "cumulative_seconds": 0.0005752
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 34,
+    "function": "__post_init__",
+    "primitive_calls": 70,
+    "calls": 70,
+    "self_seconds": 5.86e-05,
+    "cumulative_seconds": 0.0005469
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\solver.py",
+    "line": 83,
+    "function": "solve_contacts",
+    "primitive_calls": 1,
+    "calls": 1,
+    "self_seconds": 2.3e-05,
+    "cumulative_seconds": 0.0004707
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\solver.py",
+    "line": 23,
+    "function": "__init__",
+    "primitive_calls": 35,
+    "calls": 35,
+    "self_seconds": 4.4000000000000006e-05,
+    "cumulative_seconds": 0.00044760000000000004
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\rigid.py",
+    "line": 48,
+    "function": "angular_acceleration",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 9.38e-05,
+    "cumulative_seconds": 0.0004172
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 28,
+    "function": "<genexpr>",
+    "primitive_calls": 2350,
+    "calls": 2350,
+    "self_seconds": 0.00028930000000000004,
+    "cumulative_seconds": 0.00041600000000000003
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 99,
+    "function": "sweep_bounds",
+    "primitive_calls": 2,
+    "calls": 2,
+    "self_seconds": 0.00020130000000000001,
+    "cumulative_seconds": 0.0004065
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 7,
+    "function": "add",
+    "primitive_calls": 360,
+    "calls": 360,
+    "self_seconds": 0.0002309,
+    "cumulative_seconds": 0.0003506
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method math.isfinite>",
+    "primitive_calls": 5491,
+    "calls": 5491,
+    "self_seconds": 0.0003464,
+    "cumulative_seconds": 0.0003464
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 11,
+    "function": "scale",
+    "primitive_calls": 360,
+    "calls": 360,
+    "self_seconds": 0.00020800000000000001,
+    "cumulative_seconds": 0.00032030000000000003
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 16,
+    "function": "<genexpr>",
+    "primitive_calls": 2470,
+    "calls": 2470,
+    "self_seconds": 0.00022700000000000002,
+    "cumulative_seconds": 0.00022700000000000002
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 36,
+    "function": "multiply",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 4.63e-05,
+    "cumulative_seconds": 0.0001923
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 31,
+    "function": "<genexpr>",
+    "primitive_calls": 2350,
+    "calls": 2350,
+    "self_seconds": 0.0001696,
+    "cumulative_seconds": 0.0001696
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 33,
+    "function": "<genexpr>",
+    "primitive_calls": 2350,
+    "calls": 2350,
+    "self_seconds": 0.00016230000000000001,
+    "cumulative_seconds": 0.00016230000000000001
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 52,
+    "function": "__post_init__",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 2.6200000000000003e-05,
+    "cumulative_seconds": 0.0001582
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.abs>",
+    "primitive_calls": 2210,
+    "calls": 2210,
+    "self_seconds": 0.0001486,
+    "cumulative_seconds": 0.0001486
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 75,
+    "function": "<genexpr>",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 3.21e-05,
+    "cumulative_seconds": 0.0001443
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 8,
+    "function": "<genexpr>",
+    "primitive_calls": 1470,
+    "calls": 1470,
+    "self_seconds": 0.00011970000000000001,
+    "cumulative_seconds": 0.00011970000000000001
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 12,
+    "function": "<genexpr>",
+    "primitive_calls": 1470,
+    "calls": 1470,
+    "self_seconds": 0.0001123,
+    "cumulative_seconds": 0.0001123
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.all>",
+    "primitive_calls": 451,
+    "calls": 451,
+    "self_seconds": 6.27e-05,
+    "cumulative_seconds": 0.00010810000000000001
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.len>",
+    "primitive_calls": 1549,
+    "calls": 1549,
+    "self_seconds": 0.0001077,
+    "cumulative_seconds": 0.0001077
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 21,
+    "function": "radius_bound",
+    "primitive_calls": 175,
+    "calls": 175,
+    "self_seconds": 5.8800000000000006e-05,
+    "cumulative_seconds": 9.350000000000001e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 114,
+    "function": "<genexpr>",
+    "primitive_calls": 978,
+    "calls": 978,
+    "self_seconds": 7.730000000000001e-05,
+    "cumulative_seconds": 7.730000000000001e-05
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.getattr>",
+    "primitive_calls": 780,
+    "calls": 780,
+    "self_seconds": 6.93e-05,
+    "cumulative_seconds": 6.93e-05
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.any>",
+    "primitive_calls": 71,
+    "calls": 71,
+    "self_seconds": 3.52e-05,
+    "cumulative_seconds": 6.400000000000001e-05
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.sorted>",
+    "primitive_calls": 75,
+    "calls": 75,
+    "self_seconds": 4.4500000000000004e-05,
+    "cumulative_seconds": 6.1000000000000005e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\spatial.py",
+    "line": 19,
+    "function": "cross",
+    "primitive_calls": 300,
+    "calls": 300,
+    "self_seconds": 5.8700000000000004e-05,
+    "cumulative_seconds": 5.8700000000000004e-05
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method math.sqrt>",
+    "primitive_calls": 530,
+    "calls": 530,
+    "self_seconds": 5.5400000000000005e-05,
+    "cumulative_seconds": 5.5400000000000005e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 80,
+    "function": "<genexpr>",
+    "primitive_calls": 80,
+    "calls": 80,
+    "self_seconds": 3.6400000000000004e-05,
+    "cumulative_seconds": 5.2300000000000004e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\geometry.py",
+    "line": 40,
+    "function": "inertia",
+    "primitive_calls": 40,
+    "calls": 40,
+    "self_seconds": 3.07e-05,
+    "cumulative_seconds": 5.0700000000000006e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\model.py",
+    "line": 17,
+    "function": "__post_init__",
+    "primitive_calls": 60,
+    "calls": 60,
+    "self_seconds": 3.33e-05,
+    "cumulative_seconds": 5.0100000000000005e-05
+  },
+  {
+    "file": "C:\\Users\\omen16\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\dataclasses.py",
+    "line": 1296,
+    "function": "_is_dataclass_instance",
+    "primitive_calls": 90,
+    "calls": 90,
+    "self_seconds": 2.11e-05,
+    "cumulative_seconds": 3.09e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\rigid.py",
+    "line": 41,
+    "function": "_restitution",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 1.1400000000000001e-05,
+    "cumulative_seconds": 3e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\model.py",
+    "line": 75,
+    "function": "__post_init__",
+    "primitive_calls": 1,
+    "calls": 1,
+    "self_seconds": 5.600000000000001e-06,
+    "cumulative_seconds": 2.9500000000000002e-05
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'disable' of '_lsprof.Profiler' objects>",
+    "primitive_calls": 1,
+    "calls": 1,
+    "self_seconds": 2.9e-05,
+    "cumulative_seconds": 2.9e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\math3.py",
+    "line": 37,
+    "function": "mv",
+    "primitive_calls": 35,
+    "calls": 35,
+    "self_seconds": 1.5e-05,
+    "cumulative_seconds": 2.7400000000000002e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 82,
+    "function": "<genexpr>",
+    "primitive_calls": 280,
+    "calls": 280,
+    "self_seconds": 2.6700000000000002e-05,
+    "cumulative_seconds": 2.6700000000000002e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 83,
+    "function": "<genexpr>",
+    "primitive_calls": 280,
+    "calls": 280,
+    "self_seconds": 2.64e-05,
+    "cumulative_seconds": 2.64e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 36,
+    "function": "<genexpr>",
+    "primitive_calls": 280,
+    "calls": 280,
+    "self_seconds": 2.4500000000000003e-05,
+    "cumulative_seconds": 2.4500000000000003e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\geometry.py",
+    "line": 76,
+    "function": "validate_shape",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 2.3e-05,
+    "cumulative_seconds": 2.3e-05
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method math.hypot>",
+    "primitive_calls": 185,
+    "calls": 185,
+    "self_seconds": 2.04e-05,
+    "cumulative_seconds": 2.04e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\geometry.py",
+    "line": 42,
+    "function": "<genexpr>",
+    "primitive_calls": 160,
+    "calls": 160,
+    "self_seconds": 2e-05,
+    "cumulative_seconds": 2e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\rigid.py",
+    "line": 35,
+    "function": "_inputs",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 9e-06,
+    "cumulative_seconds": 1.6400000000000002e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\rigid.py",
+    "line": 54,
+    "function": "<genexpr>",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 1.5100000000000001e-05,
+    "cumulative_seconds": 1.5100000000000001e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\math3.py",
+    "line": 28,
+    "function": "norm",
+    "primitive_calls": 60,
+    "calls": 60,
+    "self_seconds": 9.5e-06,
+    "cumulative_seconds": 1.48e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 67,
+    "function": "<genexpr>",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 1.36e-05,
+    "cumulative_seconds": 1.36e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\collision.py",
+    "line": 104,
+    "function": "<genexpr>",
+    "primitive_calls": 142,
+    "calls": 142,
+    "self_seconds": 1.36e-05,
+    "cumulative_seconds": 1.36e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 71,
+    "function": "<genexpr>",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 1.2800000000000001e-05,
+    "cumulative_seconds": 1.2800000000000001e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\math3.py",
+    "line": 20,
+    "function": "dot",
+    "primitive_calls": 105,
+    "calls": 105,
+    "self_seconds": 1.2400000000000002e-05,
+    "cumulative_seconds": 1.2400000000000002e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\dynamics.py",
+    "line": 69,
+    "function": "<genexpr>",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 1.22e-05,
+    "cumulative_seconds": 1.22e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\rigid.py",
+    "line": 52,
+    "function": "<genexpr>",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 1.2e-05,
+    "cumulative_seconds": 1.2e-05
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.min>",
+    "primitive_calls": 60,
+    "calls": 60,
+    "self_seconds": 1.1900000000000001e-05,
+    "cumulative_seconds": 1.1900000000000001e-05
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'values' of 'dict' objects>",
+    "primitive_calls": 90,
+    "calls": 90,
+    "self_seconds": 1.18e-05,
+    "cumulative_seconds": 1.18e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\geometry.py",
+    "line": 70,
+    "function": "inertia",
+    "primitive_calls": 40,
+    "calls": 40,
+    "self_seconds": 1.1200000000000001e-05,
+    "cumulative_seconds": 1.1200000000000001e-05
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\solver.py",
+    "line": 27,
+    "function": "<genexpr>",
+    "primitive_calls": 120,
+    "calls": 120,
+    "self_seconds": 9.800000000000001e-06,
+    "cumulative_seconds": 9.800000000000001e-06
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'append' of 'list' objects>",
+    "primitive_calls": 71,
+    "calls": 71,
+    "self_seconds": 9.800000000000001e-06,
+    "cumulative_seconds": 9.800000000000001e-06
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<built-in method builtins.hasattr>",
+    "primitive_calls": 90,
+    "calls": 90,
+    "self_seconds": 9.800000000000001e-06,
+    "cumulative_seconds": 9.800000000000001e-06
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'add' of 'set' objects>",
+    "primitive_calls": 70,
+    "calls": 70,
+    "self_seconds": 8.000000000000001e-06,
+    "cumulative_seconds": 8.000000000000001e-06
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\Hw5\\geometry.py",
+    "line": 57,
+    "function": "inertia",
+    "primitive_calls": 40,
+    "calls": 40,
+    "self_seconds": 7.4e-06,
+    "cumulative_seconds": 7.4e-06
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'remove' of 'set' objects>",
+    "primitive_calls": 70,
+    "calls": 70,
+    "self_seconds": 5.8e-06,
+    "cumulative_seconds": 5.8e-06
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\model.py",
+    "line": 77,
+    "function": "<genexpr>",
+    "primitive_calls": 36,
+    "calls": 36,
+    "self_seconds": 3.3e-06,
+    "cumulative_seconds": 5.500000000000001e-06
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\math3.py",
+    "line": 8,
+    "function": "add",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 5.1e-06,
+    "cumulative_seconds": 5.1e-06
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\math3.py",
+    "line": 16,
+    "function": "mul",
+    "primitive_calls": 30,
+    "calls": 30,
+    "self_seconds": 4.800000000000001e-06,
+    "cumulative_seconds": 4.800000000000001e-06
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\model.py",
+    "line": 82,
+    "function": "<genexpr>",
+    "primitive_calls": 31,
+    "calls": 31,
+    "self_seconds": 4.3e-06,
+    "cumulative_seconds": 4.3e-06
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\model.py",
+    "line": 85,
+    "function": "<lambda>",
+    "primitive_calls": 35,
+    "calls": 35,
+    "self_seconds": 2.9e-06,
+    "cumulative_seconds": 2.9e-06
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\math3.py",
+    "line": 51,
+    "function": "finite_scalar",
+    "primitive_calls": 1,
+    "calls": 1,
+    "self_seconds": 3.0000000000000004e-07,
+    "cumulative_seconds": 6.000000000000001e-07
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\world.py",
+    "line": 65,
+    "function": "<genexpr>",
+    "primitive_calls": 1,
+    "calls": 1,
+    "self_seconds": 2.0000000000000002e-07,
+    "cumulative_seconds": 2.0000000000000002e-07
+  },
+  {
+    "file": "~",
+    "line": 0,
+    "function": "<method 'items' of 'dict' objects>",
+    "primitive_calls": 2,
+    "calls": 2,
+    "self_seconds": 2.0000000000000002e-07,
+    "cumulative_seconds": 2.0000000000000002e-07
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\solver.py",
+    "line": 130,
+    "function": "<genexpr>",
+    "primitive_calls": 1,
+    "calls": 1,
+    "self_seconds": 1.0000000000000001e-07,
+    "cumulative_seconds": 1.0000000000000001e-07
+  },
+  {
+    "file": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\world.py",
+    "line": 84,
+    "function": "<genexpr>",
+    "primitive_calls": 1,
+    "calls": 1,
+    "self_seconds": 1.0000000000000001e-07,
+    "cumulative_seconds": 1.0000000000000001e-07
+  }
+]

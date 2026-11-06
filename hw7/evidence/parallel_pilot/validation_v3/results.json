@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "scene": "peak",
+      "historical_serial_exact": true,
+      "parallel_exact": true
+    },
+    {
+      "scene": "impacts",
+      "historical_serial_exact": true,
+      "parallel_exact": true
+    },
+    {
+      "scene": "pile",
+      "historical_serial_exact": true,
+      "parallel_exact": true
+    }
+  ],
+  "invocation_main_seconds": 47.62763510001241
+}

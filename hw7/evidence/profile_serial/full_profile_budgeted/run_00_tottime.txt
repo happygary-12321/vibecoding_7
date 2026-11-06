@@ -1,0 +1,53 @@
+         66129636 function calls (66115974 primitive calls) in 44.371 seconds
+
+   Ordered by: internal time
+   List reduced from 221 to 45 due to restriction <45>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     3959   14.552    0.004   28.857    0.007 collision.py:296(_epa)
+    28743    7.869    0.000    7.869    0.000 {built-in method nt.open}
+    32757    1.176    0.000    3.614    0.000 collision.py:173(_closest)
+  2337682    1.157    0.000    1.966    0.000 {built-in method builtins.sum}
+  1006638    1.073    0.000    1.814    0.000 solver.py:67(apply)
+  2267484    0.923    0.000    1.453    0.000 dynamics.py:9(_scalar)
+  3887032    0.890    0.000    0.890    0.000 collision.py:328(<genexpr>)
+   212102    0.805    0.000    2.559    0.000 spatial.py:23(quaternion)
+      389    0.804    0.002    4.645    0.012 solver.py:83(solve_contacts)
+   737795    0.702    0.000    1.292    0.000 solver.py:61(relative)
+   350383    0.585    0.000    0.965    0.000 collision.py:142(_affine)
+  3897003    0.551    0.000    0.551    0.000 math3.py:12(sub)
+  6102855    0.547    0.000    0.594    0.000 {built-in method builtins.isinstance}
+2353183/2339521    0.525    0.000    0.820    0.000 {built-in method builtins.max}
+   244879    0.482    0.000    2.500    0.000 collision.py:54(support)
+  3160763    0.475    0.000    0.475    0.000 math3.py:20(dot)
+  3341911    0.450    0.000    0.450    0.000 math3.py:16(mul)
+  1282800    0.442    0.000    1.360    0.000 math3.py:42(<genexpr>)
+    86229    0.441    0.000    0.441    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+  3232826    0.438    0.000    0.438    0.000 math3.py:8(add)
+   427996    0.436    0.000    1.660    0.000 dynamics.py:21(_vector)
+  1841817    0.387    0.000    0.387    0.000 math3.py:24(cross)
+  1082608    0.375    0.000    1.008    0.000 collision.py:183(<genexpr>)
+   320700    0.351    0.000    1.711    0.000 math3.py:41(tmv)
+  1711984    0.336    0.000    1.151    0.000 dynamics.py:24(<genexpr>)
+   454501    0.256    0.000    0.337    0.000 {built-in method builtins.min}
+     6248    0.238    0.000   33.476    0.005 collision.py:244(distance_or_penetration)
+  1145696    0.217    0.000    0.346    0.000 math3.py:28(norm)
+  1630989    0.212    0.000    0.212    0.000 {built-in method math.hypot}
+  1060510    0.210    0.000    0.761    0.000 spatial.py:27(<genexpr>)
+   546169    0.207    0.000    0.413    0.000 collision.py:301(<genexpr>)
+   472550    0.195    0.000    0.404    0.000 collision.py:344(<genexpr>)
+   112229    0.191    0.000    2.623    0.000 collision.py:137(_support)
+  2298438    0.186    0.000    0.186    0.000 {built-in method math.isfinite}
+   300642    0.166    0.000    0.317    0.000 math3.py:37(mv)
+  1060510    0.164    0.000    0.233    0.000 spatial.py:28(<genexpr>)
+    28743    0.157    0.000    8.718    0.000 tempfile.py:243(_mkstemp_inner)
+  1548373    0.148    0.000    0.148    0.000 {built-in method builtins.len}
+    46324    0.142    0.000    0.719    0.000 dataclasses.py:1540(replace)
+   265852    0.138    0.000    0.474    0.000 collision.py:48(world)
+    28743    0.132    0.000    0.187    0.000 random.py:454(choices)
+   753515    0.127    0.000    0.199    0.000 collision.py:180(<genexpr>)
+   148428    0.120    0.000    0.180    0.000 spatial.py:7(add)
+  1140742    0.119    0.000    0.119    0.000 spatial.py:16(<genexpr>)
+     3724    0.118    0.000   34.674    0.009 manifolds.py:193(narrow_phase)
+
+

@@ -1,0 +1,12 @@
+{
+  "status": "running",
+  "complete": false,
+  "physics_complete": false,
+  "pid": 24424,
+  "requested_steps": 2880,
+  "completed_steps": 2880,
+  "world_step": 2880,
+  "stepping_elapsed_seconds": 1066.8148326000082,
+  "updated_utc": "2026-11-05T23:46:02.599654+00:00",
+  "max_penetration_so_far": 0.016251535173982926
+}

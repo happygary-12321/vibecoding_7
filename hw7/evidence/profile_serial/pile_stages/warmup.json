@@ -1,0 +1,119 @@
+{
+  "status": "complete",
+  "complete": true,
+  "requested_steps": 4,
+  "start_step": 1440,
+  "completed_steps": 4,
+  "mode": "plain",
+  "physics_seconds": 1.8928568000000001,
+  "graphs": [
+    {
+      "pair_count": 52,
+      "row_count": 100,
+      "islands": 8,
+      "island_row_weights": [
+        61,
+        14,
+        8,
+        6,
+        5,
+        4,
+        1,
+        1
+      ],
+      "colors": 4,
+      "largest_island_row_share": 0.61
+    },
+    {
+      "pair_count": 52,
+      "row_count": 98,
+      "islands": 8,
+      "island_row_weights": [
+        60,
+        14,
+        7,
+        6,
+        5,
+        4,
+        1,
+        1
+      ],
+      "colors": 4,
+      "largest_island_row_share": 0.6122448979591837
+    },
+    {
+      "pair_count": 52,
+      "row_count": 103,
+      "islands": 8,
+      "island_row_weights": [
+        64,
+        14,
+        8,
+        6,
+        5,
+        4,
+        1,
+        1
+      ],
+      "colors": 4,
+      "largest_island_row_share": 0.6213592233009708
+    },
+    {
+      "pair_count": 52,
+      "row_count": 101,
+      "islands": 8,
+      "island_row_weights": [
+        62,
+        14,
+        8,
+        6,
+        5,
+        4,
+        1,
+        1
+      ],
+      "colors": 4,
+      "largest_island_row_share": 0.6138613861386139
+    }
+  ],
+  "steps": [
+    {
+      "step": 1441,
+      "candidates": 57,
+      "manifolds": 52,
+      "rows": 100,
+      "corrected_depth": 0.001163795455522837
+    },
+    {
+      "step": 1442,
+      "candidates": 57,
+      "manifolds": 52,
+      "rows": 98,
+      "corrected_depth": 0.001163795451470273
+    },
+    {
+      "step": 1443,
+      "candidates": 57,
+      "manifolds": 52,
+      "rows": 103,
+      "corrected_depth": 0.0011637954476957646
+    },
+    {
+      "step": 1444,
+      "candidates": 57,
+      "manifolds": 52,
+      "rows": 101,
+      "corrected_depth": 0.0011637954441806042
+    }
+  ],
+  "end_step": 1444,
+  "checkpoint_paths": [],
+  "error": null,
+  "world_digest": "00c3ab941ed48ad35891ab524b22915f6925a456ae156e1497477781dfddf6ad",
+  "reports_digest": "c87064bb5d25a1cf6f2f7d7ab736f047efbb6cda2ce333f19b44a93600983d19",
+  "telemetry": null,
+  "candidate_sum": 228,
+  "manifold_sum": 208,
+  "row_sum": 402,
+  "max_corrected_depth": 0.001163795455522837
+}

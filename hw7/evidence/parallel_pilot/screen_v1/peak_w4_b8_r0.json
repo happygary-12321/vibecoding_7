@@ -1,0 +1,550 @@
+{
+  "complete": true,
+  "status": "complete",
+  "scene": "peak",
+  "workers": 4,
+  "batch_size": 8,
+  "backend": "parallel",
+  "steps": 30,
+  "warmup_steps": 4,
+  "serial_threshold": 0,
+  "checkpoint_provenance": {
+    "step": 389,
+    "time": 0.8104166666666645,
+    "preparation_physics_seconds": 45.34207600000001,
+    "sha256": "806b79e00d3ec211c692a979770c02a6d53a0503a1c9b9c43c5ee1731f56966b",
+    "physics_source_id": "5740562222ed7b3ad9956979ee0e2718e39adaa48e9c653681ed0edea3154a10",
+    "prepared_from_step": 0,
+    "genuine_simulation": true,
+    "includes_contact_cache": true,
+    "cache_manifolds": 25,
+    "seed": 7,
+    "options": {
+      "dt": 0.0020833333333333333,
+      "gravity": [
+        0.0,
+        -9.81,
+        0.0
+      ],
+      "restitution": 0.15,
+      "friction": 0.4,
+      "restitution_threshold": 0.5,
+      "velocity_iterations": 120,
+      "split_iterations": 20,
+      "enable_split": true,
+      "slop": 0.0001,
+      "beta": 0.2,
+      "correction_depth_limit": 0.03,
+      "max_translation": 0.01,
+      "max_rotation": 0.05,
+      "geometry_relative": 1e-08,
+      "contact_factor": 5.0,
+      "break_relative": 0.0001,
+      "face_angle": 0.0001,
+      "incident_cap_angle": 0.7853981633974483,
+      "cache_angle": 0.08726646259971647,
+      "perturb_angle": 0.01,
+      "gjk_iterations": 64,
+      "epa_iterations": 128,
+      "epa_faces": 512
+    },
+    "explicit_compatibility": "D:\\CodexCLI\\vibecoding\\HW3_submission\\hw7\\evidence\\parallel_pilot\\compatibility_v3.json",
+    "loaded_with_physics_source_id": "85a6b0a41e01bd7f9a8366e6b92b9d10de4f128e20d0d7183ce30e300e685857"
+  },
+  "warmup_seconds": 0.5123335999960545,
+  "physics_seconds": 4.999107000010554,
+  "start_step": 389,
+  "end_step": 419,
+  "world_digest": "755c052a3ac9c1819a3328b40c6e2941248aa7404c9e7d5398b1c66386fb0faf",
+  "reports_digest": "cfc7c211b3af7ed9fd647a0980d49f60104355312f7a85e3760f849fb80fcb9a",
+  "value_digest": "b2c964a23cd7d70d4f69f4875192bd0d269bb63cd213e60842df05bd1a23f699",
+  "contains_collision": true,
+  "measured_dispatch": {
+    "trial_calls": 30,
+    "candidate_pairs": 1650,
+    "worker_pairs": 1650,
+    "batches": 240,
+    "diagnostic_calls": 30
+  },
+  "measured_worker_pairs": {
+    "43660": 210,
+    "47244": 480,
+    "42744": 480,
+    "22180": 480
+  },
+  "trial_total_seconds": 5.924769500008551,
+  "pool": {
+    "backend": "parallel",
+    "workers": 4,
+    "batch_size": 8,
+    "serial_threshold": 0,
+    "startup_seconds": 0.3362298000138253,
+    "shutdown_seconds": 0.0526428000011947,
+    "ready": [
+      [
+        "ready",
+        22180,
+        {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        }
+      ],
+      [
+        "ready",
+        43660,
+        {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        }
+      ],
+      [
+        "ready",
+        42744,
+        {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        }
+      ],
+      [
+        "ready",
+        47244,
+        {
+          "OMP_NUM_THREADS": "1",
+          "OPENBLAS_NUM_THREADS": "1",
+          "MKL_NUM_THREADS": "1",
+          "NUMEXPR_NUM_THREADS": "1"
+        }
+      ]
+    ],
+    "counts": {
+      "trial_calls": 34,
+      "candidate_pairs": 1854,
+      "worker_pairs": 1854,
+      "batches": 272,
+      "diagnostic_calls": 34
+    },
+    "worker_pairs": {
+      "43660": 222,
+      "47244": 544,
+      "42744": 544,
+      "22180": 544
+    },
+    "all_workers_exited": true,
+    "completion_orders": [
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        1,
+        0,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        3,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ],
+      [
+        3,
+        0,
+        1,
+        2
+      ]
+    ]
+  }
+}

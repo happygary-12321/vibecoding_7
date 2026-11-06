@@ -1,0 +1,13 @@
+{
+  "complete": true,
+  "mode": "cprofile",
+  "raw_seconds": [
+    0.3775604
+  ],
+  "median_seconds": 0.3775604,
+  "min_seconds": 0.3775604,
+  "max_seconds": 0.3775604,
+  "sample_stdev_seconds": null,
+  "warmup_policy": "4 discarded steps from the same immutable start; reset before each repeat",
+  "exact_replay": true
+}

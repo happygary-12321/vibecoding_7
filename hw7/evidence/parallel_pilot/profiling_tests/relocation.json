@@ -1,0 +1,5 @@
+﻿{
+    "original":  "hw7/evidence/profile_serial/test_partial_10753edf085c405ba74431f7d1fa0114",
+    "relocated":  "hw7/evidence/parallel_pilot/profiling_tests/test_partial_10753edf085c405ba74431f7d1fa0114",
+    "reason":  "New Part 4 tests_v1 budget-test artifact; moved unchanged into Part 4 evidence. Embedded original output paths describe execution location. No pre-Part-4 evidence moved."
+}

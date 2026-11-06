@@ -1,0 +1,53 @@
+         66129636 function calls (66115974 primitive calls) in 44.371 seconds
+
+   Ordered by: cumulative time
+   List reduced from 221 to 45 due to restriction <45>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      389    0.114    0.000   45.297    0.116 world.py:40(step_world)
+      778    0.032    0.000   35.927    0.046 world.py:27(detect)
+     3724    0.118    0.000   34.674    0.009 manifolds.py:193(narrow_phase)
+     6248    0.238    0.000   33.476    0.005 collision.py:244(distance_or_penetration)
+     3959   14.552    0.004   28.857    0.007 collision.py:296(_epa)
+    28743    0.051    0.000    9.020    0.000 tempfile.py:321(mkstemp)
+    28743    0.157    0.000    8.718    0.000 tempfile.py:243(_mkstemp_inner)
+    28743    7.869    0.000    7.869    0.000 {built-in method nt.open}
+      389    0.804    0.002    4.645    0.012 solver.py:83(solve_contacts)
+    32757    1.176    0.000    3.614    0.000 collision.py:173(_closest)
+   112229    0.191    0.000    2.623    0.000 collision.py:137(_support)
+   212102    0.805    0.000    2.559    0.000 spatial.py:23(quaternion)
+   244879    0.482    0.000    2.500    0.000 collision.py:54(support)
+    11670    0.110    0.000    2.126    0.000 rigid.py:87(advance)
+  2337682    1.157    0.000    1.966    0.000 {built-in method builtins.sum}
+  1006638    1.073    0.000    1.814    0.000 solver.py:67(apply)
+   320700    0.351    0.000    1.711    0.000 math3.py:41(tmv)
+   427996    0.436    0.000    1.660    0.000 dynamics.py:21(_vector)
+  2267484    0.923    0.000    1.453    0.000 dynamics.py:9(_scalar)
+    35010    0.028    0.000    1.366    0.000 spatial.py:49(unrotate)
+  1282800    0.442    0.000    1.360    0.000 math3.py:42(<genexpr>)
+   737795    0.702    0.000    1.292    0.000 solver.py:61(relative)
+    46680    0.107    0.000    1.241    0.000 spatial.py:42(rotate)
+  1711984    0.336    0.000    1.151    0.000 dynamics.py:24(<genexpr>)
+    37534    0.099    0.000    1.082    0.000 rigid.py:18(__post_init__)
+  1082608    0.375    0.000    1.008    0.000 collision.py:183(<genexpr>)
+    28008    0.030    0.000    1.001    0.000 world.py:30(<genexpr>)
+   350383    0.585    0.000    0.965    0.000 collision.py:142(_affine)
+    27230    0.110    0.000    0.944    0.000 collision.py:69(world_aabb)
+  3887032    0.890    0.000    0.890    0.000 collision.py:328(<genexpr>)
+    64432    0.067    0.000    0.872    0.000 spatial.py:84(to_matrix)
+2353183/2339521    0.525    0.000    0.820    0.000 {built-in method builtins.max}
+    50817    0.045    0.000    0.782    0.000 collision.py:43(__init__)
+  1060510    0.210    0.000    0.761    0.000 spatial.py:27(<genexpr>)
+    46324    0.142    0.000    0.719    0.000 dataclasses.py:1540(replace)
+    89385    0.100    0.000    0.606    0.000 {built-in method builtins.any}
+  6102855    0.547    0.000    0.594    0.000 {built-in method builtins.isinstance}
+    60874    0.077    0.000    0.569    0.000 dynamics.py:36(__post_init__)
+  3897003    0.551    0.000    0.551    0.000 math3.py:12(sub)
+   231313    0.093    0.000    0.526    0.000 {built-in method builtins.all}
+  3160763    0.475    0.000    0.475    0.000 math3.py:20(dot)
+   265852    0.138    0.000    0.474    0.000 collision.py:48(world)
+  3341911    0.450    0.000    0.450    0.000 math3.py:16(mul)
+    86229    0.441    0.000    0.441    0.000 {method 'reduce' of 'numpy.ufunc' objects}
+  3232826    0.438    0.000    0.438    0.000 math3.py:8(add)
+
+

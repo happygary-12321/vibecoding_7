@@ -1,0 +1,53 @@
+         1815693 function calls (1812543 primitive calls) in 0.378 seconds
+
+   Ordered by: cumulative time
+   List reduced from 106 to 45 due to restriction <45>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+  3180/30    0.005    0.000    0.386    0.013 profiling.py:175(wrapped)
+       30    0.005    0.000    0.385    0.013 world.py:40(step_world)
+    14100    0.041    0.000    0.139    0.000 spatial.py:23(quaternion)
+      900    0.006    0.000    0.128    0.000 rigid.py:87(advance)
+    32100    0.025    0.000    0.096    0.000 dynamics.py:21(_vector)
+       60    0.001    0.000    0.090    0.002 world.py:27(detect)
+     2700    0.002    0.000    0.083    0.000 spatial.py:49(unrotate)
+   162600    0.053    0.000    0.083    0.000 dynamics.py:9(_scalar)
+     2160    0.001    0.000    0.077    0.000 world.py:30(<genexpr>)
+     3600    0.007    0.000    0.076    0.000 spatial.py:42(rotate)
+   128400    0.018    0.000    0.067    0.000 dynamics.py:24(<genexpr>)
+     2100    0.007    0.000    0.064    0.000 collision.py:69(world_aabb)
+     2700    0.005    0.000    0.059    0.000 rigid.py:18(__post_init__)
+     4200    0.003    0.000    0.051    0.000 spatial.py:84(to_matrix)
+     3150    0.001    0.000    0.042    0.000 collision.py:43(__init__)
+    70500    0.010    0.000    0.040    0.000 spatial.py:27(<genexpr>)
+     4500    0.004    0.000    0.032    0.000 dynamics.py:36(__post_init__)
+     2700    0.005    0.000    0.031    0.000 dataclasses.py:1540(replace)
+    15000    0.005    0.000    0.026    0.000 spatial.py:15(dot)
+    17700    0.009    0.000    0.025    0.000 {built-in method builtins.sum}
+   388620    0.024    0.000    0.024    0.000 {built-in method builtins.isinstance}
+    18120    0.008    0.000    0.021    0.000 {built-in method builtins.max}
+      900    0.004    0.000    0.020    0.000 dynamics.py:58(step)
+     2100    0.002    0.000    0.017    0.000 collision.py:34(__post_init__)
+       30    0.001    0.000    0.015    0.001 solver.py:83(solve_contacts)
+     1050    0.001    0.000    0.014    0.000 solver.py:23(__init__)
+    74100    0.013    0.000    0.013    0.000 spatial.py:16(<genexpr>)
+      900    0.003    0.000    0.013    0.000 rigid.py:48(angular_acceleration)
+    70500    0.009    0.000    0.013    0.000 spatial.py:28(<genexpr>)
+       60    0.006    0.000    0.012    0.000 collision.py:99(sweep_bounds)
+   164730    0.011    0.000    0.011    0.000 {built-in method math.isfinite}
+    10800    0.007    0.000    0.010    0.000 spatial.py:7(add)
+    10800    0.006    0.000    0.009    0.000 spatial.py:11(scale)
+     6360    0.001    0.000    0.009    0.000 {built-in method builtins.next}
+     6360    0.002    0.000    0.007    0.000 profiling.py:158(span)
+     3180    0.001    0.000    0.006    0.000 contextlib.py:141(__exit__)
+      900    0.001    0.000    0.006    0.000 spatial.py:36(multiply)
+    70500    0.006    0.000    0.006    0.000 spatial.py:31(<genexpr>)
+     3600    0.001    0.000    0.005    0.000 collision.py:75(<genexpr>)
+    70500    0.005    0.000    0.005    0.000 spatial.py:33(<genexpr>)
+      900    0.001    0.000    0.004    0.000 dynamics.py:52(__post_init__)
+    66300    0.004    0.000    0.004    0.000 {built-in method builtins.abs}
+     3180    0.001    0.000    0.004    0.000 contextlib.py:132(__enter__)
+     3300    0.003    0.000    0.004    0.000 profiling.py:149(pop)
+    44100    0.003    0.000    0.003    0.000 spatial.py:8(<genexpr>)
+
+

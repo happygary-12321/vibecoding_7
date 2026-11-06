@@ -1,0 +1,114 @@
+{
+  "status": "complete",
+  "complete": true,
+  "requested_steps": 4,
+  "start_step": 600,
+  "completed_steps": 4,
+  "mode": "plain",
+  "physics_seconds": 0.6653111,
+  "graphs": [
+    {
+      "pair_count": 20,
+      "row_count": 46,
+      "islands": 7,
+      "island_row_weights": [
+        15,
+        14,
+        7,
+        4,
+        3,
+        2,
+        1
+      ],
+      "colors": 2,
+      "largest_island_row_share": 0.32608695652173914
+    },
+    {
+      "pair_count": 20,
+      "row_count": 47,
+      "islands": 7,
+      "island_row_weights": [
+        15,
+        15,
+        7,
+        4,
+        3,
+        2,
+        1
+      ],
+      "colors": 2,
+      "largest_island_row_share": 0.3191489361702128
+    },
+    {
+      "pair_count": 19,
+      "row_count": 46,
+      "islands": 6,
+      "island_row_weights": [
+        15,
+        15,
+        7,
+        4,
+        3,
+        2
+      ],
+      "colors": 2,
+      "largest_island_row_share": 0.32608695652173914
+    },
+    {
+      "pair_count": 20,
+      "row_count": 46,
+      "islands": 7,
+      "island_row_weights": [
+        15,
+        14,
+        7,
+        4,
+        3,
+        2,
+        1
+      ],
+      "colors": 2,
+      "largest_island_row_share": 0.32608695652173914
+    }
+  ],
+  "steps": [
+    {
+      "step": 601,
+      "candidates": 33,
+      "manifolds": 20,
+      "rows": 46,
+      "corrected_depth": 0.001747380305735291
+    },
+    {
+      "step": 602,
+      "candidates": 33,
+      "manifolds": 20,
+      "rows": 47,
+      "corrected_depth": 0.0011604599045758057
+    },
+    {
+      "step": 603,
+      "candidates": 32,
+      "manifolds": 19,
+      "rows": 46,
+      "corrected_depth": 0.0012197320705875925
+    },
+    {
+      "step": 604,
+      "candidates": 33,
+      "manifolds": 20,
+      "rows": 46,
+      "corrected_depth": 0.005124954612985344
+    }
+  ],
+  "end_step": 604,
+  "checkpoint_paths": [],
+  "error": null,
+  "world_digest": "317ecceb7719d532ebf948b15f0bdf91273342767c2aaef3b8261a6981083cba",
+  "reports_digest": "021df08f18766aebd7f02344666a2cf7b713345e353f884ba965b5dd41af76d6",
+  "telemetry": null,
+  "candidate_sum": 131,
+  "manifold_sum": 79,
+  "row_sum": 185,
+  "max_corrected_depth": 0.005124954612985344
+}

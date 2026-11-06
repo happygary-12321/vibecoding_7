@@ -1,0 +1,6 @@
+__pycache__/
+evidence/mplconfig/
+evidence/tmp/
+evidence/profile_serial/native_tmp/
+evidence/parallel_pilot/native_tmp/
+evidence/full_scene/native_tmp/

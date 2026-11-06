@@ -1,0 +1,81 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "C:\\Users\\omen16\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "logical_cpu_count": 24,
+  "versions": {
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "matplotlib": "3.10.8",
+    "psutil": "7.2.2",
+    "threadpoolctl": null,
+    "cython": null,
+    "numba": null
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "MKL_NUM_THREADS": null,
+    "NUMEXPR_NUM_THREADS": null,
+    "OMP_DYNAMIC": null,
+    "OMP_PROC_BIND": null
+  },
+  "physical_cpu_count_psutil": 24,
+  "effective_affinity": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23
+  ],
+  "battery": {
+    "percent": 100,
+    "power_plugged": true
+  },
+  "windows_processor": {
+    "command": [
+      "powershell",
+      "-NoProfile",
+      "-NonInteractive",
+      "-Command",
+      "Get-CimInstance Win32_Processor | Select-Object Name,NumberOfCores,NumberOfLogicalProcessors | ConvertTo-Json"
+    ],
+    "returncode": 0,
+    "stdout": "{\n    \"Name\":  \"Intel(R) Core(TM) Ultra 9 275HX\",\n    \"NumberOfCores\":  24,\n    \"NumberOfLogicalProcessors\":  24\n}",
+    "stderr": ""
+  },
+  "active_power_scheme": {
+    "command": [
+      "powercfg",
+      "/getactivescheme"
+    ],
+    "returncode": 0,
+    "stdout": "\u9422\u57ab\u7c2e\u93c2\u89c4\ufffd\ufffd GUID: c4cf2f28-9877-4339-87e1-3c7d1d7f529d  (\u93ac\u0446\u5158)",
+    "stderr": ""
+  },
+  "unknown": [
+    "thermal/throttling history",
+    "controlled background load",
+    "per-core performance classes",
+    "actual native-library thread counts (environment alone is insufficient)"
+  ]
+}

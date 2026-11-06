@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "scene": "peak",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        3.7392719000054058
+      ],
+      "median_seconds": 3.7392719000054058,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    }
+  ],
+  "invocation_main_seconds": 4.617888899985701
+}

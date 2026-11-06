@@ -1,0 +1,10 @@
+Command: C:\Users\omen16\AppData\Local\Programs\Python\Python312\python.exe -B -m hw7.evidence.full_scene.checks
+test_new_loop_exactly_matches_existing_simulate_and_canonical_digest (__main__.HarnessChecks.test_new_loop_exactly_matches_existing_simulate_and_canonical_digest) ... ok
+test_original_accepted_realized_state_still_passes (__main__.HarnessChecks.test_original_accepted_realized_state_still_passes) ... ok
+test_rejects_containment_static_and_nonfinite_state (__main__.HarnessChecks.test_rejects_containment_static_and_nonfinite_state) ... ok
+test_rejects_original_limit_violation (__main__.HarnessChecks.test_rejects_original_limit_violation) ... ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.017s
+
+OK

@@ -1,0 +1,83 @@
+{
+  "status": "complete",
+  "complete": true,
+  "requested_steps": 4,
+  "start_step": 0,
+  "completed_steps": 4,
+  "mode": "plain",
+  "physics_seconds": 0.0118206,
+  "graphs": [
+    {
+      "pair_count": 0,
+      "row_count": 0,
+      "islands": 0,
+      "island_row_weights": [],
+      "colors": 0,
+      "largest_island_row_share": 0.0
+    },
+    {
+      "pair_count": 0,
+      "row_count": 0,
+      "islands": 0,
+      "island_row_weights": [],
+      "colors": 0,
+      "largest_island_row_share": 0.0
+    },
+    {
+      "pair_count": 0,
+      "row_count": 0,
+      "islands": 0,
+      "island_row_weights": [],
+      "colors": 0,
+      "largest_island_row_share": 0.0
+    },
+    {
+      "pair_count": 0,
+      "row_count": 0,
+      "islands": 0,
+      "island_row_weights": [],
+      "colors": 0,
+      "largest_island_row_share": 0.0
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "candidates": 0,
+      "manifolds": 0,
+      "rows": 0,
+      "corrected_depth": 0.0
+    },
+    {
+      "step": 2,
+      "candidates": 0,
+      "manifolds": 0,
+      "rows": 0,
+      "corrected_depth": 0.0
+    },
+    {
+      "step": 3,
+      "candidates": 0,
+      "manifolds": 0,
+      "rows": 0,
+      "corrected_depth": 0.0
+    },
+    {
+      "step": 4,
+      "candidates": 0,
+      "manifolds": 0,
+      "rows": 0,
+      "corrected_depth": 0.0
+    }
+  ],
+  "end_step": 4,
+  "checkpoint_paths": [],
+  "error": null,
+  "world_digest": "28cad2a4d28ae919ab8747e4f58b2d70b033ca94a0ed6ce950bc8173d27cf84c",
+  "reports_digest": "91def36dc963dcdc49058d0e1cb54ff6e54cf25c4e74b5e0e1ee5f6a778a49d0",
+  "telemetry": null,
+  "candidate_sum": 0,
+  "manifold_sum": 0,
+  "row_sum": 0,
+  "max_corrected_depth": 0.0
+}

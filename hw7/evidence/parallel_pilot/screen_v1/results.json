@@ -1,0 +1,237 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "scene": "peak",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        12.834334500017576
+      ],
+      "median_seconds": 12.834334500017576,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "peak",
+      "workers": 2,
+      "batch_size": 4,
+      "raw_seconds": [
+        6.884842500003288
+      ],
+      "median_seconds": 6.884842500003288,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "peak",
+      "workers": 2,
+      "batch_size": 8,
+      "raw_seconds": [
+        6.871136100002332
+      ],
+      "median_seconds": 6.871136100002332,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "peak",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        4.644409900007304
+      ],
+      "median_seconds": 4.644409900007304,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "peak",
+      "workers": 4,
+      "batch_size": 8,
+      "raw_seconds": [
+        4.999107000010554
+      ],
+      "median_seconds": 4.999107000010554,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "peak",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        3.823137700004736
+      ],
+      "median_seconds": 3.823137700004736,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "peak",
+      "workers": 8,
+      "batch_size": 8,
+      "raw_seconds": [
+        5.064263600012055
+      ],
+      "median_seconds": 5.064263600012055,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "impacts",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        6.676270099997055
+      ],
+      "median_seconds": 6.676270099997055,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "impacts",
+      "workers": 2,
+      "batch_size": 4,
+      "raw_seconds": [
+        3.1498365000006743
+      ],
+      "median_seconds": 3.1498365000006743,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "impacts",
+      "workers": 2,
+      "batch_size": 8,
+      "raw_seconds": [
+        3.248688400024548
+      ],
+      "median_seconds": 3.248688400024548,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "impacts",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        2.8089563000248745
+      ],
+      "median_seconds": 2.8089563000248745,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "impacts",
+      "workers": 4,
+      "batch_size": 8,
+      "raw_seconds": [
+        2.9858093000075314
+      ],
+      "median_seconds": 2.9858093000075314,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "impacts",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        2.7054686000046786
+      ],
+      "median_seconds": 2.7054686000046786,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "impacts",
+      "workers": 8,
+      "batch_size": 8,
+      "raw_seconds": [
+        3.024406899989117
+      ],
+      "median_seconds": 3.024406899989117,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "pile",
+      "workers": 0,
+      "batch_size": 4,
+      "raw_seconds": [
+        15.190627300005872
+      ],
+      "median_seconds": 15.190627300005872,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "pile",
+      "workers": 2,
+      "batch_size": 4,
+      "raw_seconds": [
+        7.631091999995988
+      ],
+      "median_seconds": 7.631091999995988,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "pile",
+      "workers": 2,
+      "batch_size": 8,
+      "raw_seconds": [
+        9.056644500000402
+      ],
+      "median_seconds": 9.056644500000402,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "pile",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        5.343803099996876
+      ],
+      "median_seconds": 5.343803099996876,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "pile",
+      "workers": 4,
+      "batch_size": 8,
+      "raw_seconds": [
+        6.225237200007541
+      ],
+      "median_seconds": 6.225237200007541,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "pile",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        4.206910900014918
+      ],
+      "median_seconds": 4.206910900014918,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    },
+    {
+      "scene": "pile",
+      "workers": 8,
+      "batch_size": 8,
+      "raw_seconds": [
+        4.966622800013283
+      ],
+      "median_seconds": 4.966622800013283,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    }
+  ],
+  "invocation_main_seconds": 144.50091519998387
+}

@@ -1,0 +1,38 @@
+﻿[
+    {
+        "label":  "full_serial_r0",
+        "initial_matches":  true,
+        "options_match":  true,
+        "final_world_cache_matches":  true
+    },
+    {
+        "label":  "full_parallel_r0",
+        "initial_matches":  true,
+        "options_match":  true,
+        "final_world_cache_matches":  true
+    },
+    {
+        "label":  "full_parallel_r1",
+        "initial_matches":  true,
+        "options_match":  true,
+        "final_world_cache_matches":  true
+    },
+    {
+        "label":  "full_serial_r1",
+        "initial_matches":  true,
+        "options_match":  true,
+        "final_world_cache_matches":  true
+    },
+    {
+        "label":  "full_serial_r2",
+        "initial_matches":  true,
+        "options_match":  true,
+        "final_world_cache_matches":  true
+    },
+    {
+        "label":  "full_parallel_r2",
+        "initial_matches":  true,
+        "options_match":  true,
+        "final_world_cache_matches":  true
+    }
+]

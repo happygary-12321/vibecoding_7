@@ -1,0 +1,46 @@
+{
+  "complete": true,
+  "sample": "hw7/evidence/profile_serial/states_1440_confined/checkpoints/step_001440.pickle",
+  "bytes": 25832,
+  "start_method": "spawn",
+  "workers": 1,
+  "startup_until_ready_seconds": 0.3578538000001572,
+  "local_pickle_dump_seconds": [
+    0.0001383,
+    0.0001286,
+    0.0001226,
+    0.0001245,
+    0.0001198,
+    0.0001193,
+    0.0002763,
+    0.0001363,
+    0.000185,
+    0.0001225
+  ],
+  "local_pickle_load_seconds": [
+    0.0001938,
+    0.0001239,
+    0.0001145,
+    0.0001135,
+    0.0001077,
+    0.0001072,
+    0.0001916,
+    0.0001164,
+    0.0001143,
+    0.0001119
+  ],
+  "reused_worker_roundtrip_seconds": [
+    0.0010656,
+    0.0005227,
+    0.0003332,
+    0.0004407,
+    0.0005103,
+    0.000393,
+    0.0004173,
+    0.0004393,
+    0.0003823,
+    0.0003273
+  ],
+  "median_roundtrip_seconds": 0.0004283,
+  "note": "Echo only, including pipe transfer and worker unpickle/repickle. No physics executes in the worker; this is overhead evidence, not a parallel physics backend or speedup."
+}

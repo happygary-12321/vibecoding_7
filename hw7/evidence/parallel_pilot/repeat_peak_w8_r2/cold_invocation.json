@@ -1,0 +1,6 @@
+﻿{
+    "sequence_repeat":  2,
+    "sequence_workers":  8,
+    "cold_invocation_seconds":  4.8641866999999994,
+    "exit_code":  0
+}

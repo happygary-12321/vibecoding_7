@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "scene": "impacts",
+      "workers": 4,
+      "batch_size": 4,
+      "raw_seconds": [
+        2.7347167000116315
+      ],
+      "median_seconds": 2.7347167000116315,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    }
+  ],
+  "invocation_main_seconds": 3.501625899982173
+}

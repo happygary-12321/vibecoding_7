@@ -1,0 +1,15 @@
+{
+  "complete": true,
+  "mode": "plain",
+  "raw_seconds": [
+    4.648075,
+    4.6967276999999985,
+    4.7177635
+  ],
+  "median_seconds": 4.6967276999999985,
+  "min_seconds": 4.648075,
+  "max_seconds": 4.7177635,
+  "sample_stdev_seconds": 0.03574464326110012,
+  "warmup_policy": "4 discarded steps from the same immutable start; reset before each repeat",
+  "exact_replay": true
+}

@@ -1,0 +1,46 @@
+{
+  "peak_stages": {
+    "measured_instrumented_seconds": 14.0748544,
+    "target_seconds": 13.0448173,
+    "target_fraction": 0.9268172109830138,
+    "pair_jobs": 1650,
+    "mean_job_seconds": 0.007905949878787878,
+    "max_job_seconds": 0.0933371,
+    "ideal_interval_speedup": {
+      "2": 1.8636154255063666,
+      "4": 3.279318167830763,
+      "8": 4.333930038791385,
+      "24": 4.34018282426805
+    },
+    "amdahl_no_load_imbalance_speedup": {
+      "2": 1.8636154255063668,
+      "4": 3.2799027148653144,
+      "8": 5.29002732477718,
+      "24": 8.944530002809934
+    },
+    "infinite_worker_amdahl_bound": 13.664415000197572,
+    "note": "Estimate from measured interval pair-call durations and actual two detection barriers; ignores IPC, scheduling, filesystem contention and changing cost under concurrency. Not a measured whole-six-second speedup or whole-scene fraction."
+  },
+  "pile_granular": {
+    "measured_instrumented_seconds": 15.9704033,
+    "target_seconds": 14.1088246,
+    "target_fraction": 0.8834357113573957,
+    "pair_jobs": 3420,
+    "mean_job_seconds": 0.004125387309941521,
+    "max_job_seconds": 0.0728566,
+    "ideal_interval_speedup": {
+      "2": 1.7912089974070187,
+      "4": 2.9620183826064106,
+      "8": 3.7379404552462456,
+      "24": 3.7379404552462456
+    },
+    "amdahl_no_load_imbalance_speedup": {
+      "2": 1.7912089974070182,
+      "4": 2.9636372103443698,
+      "8": 4.40540758814777,
+      "24": 6.520005236421332
+    },
+    "infinite_worker_amdahl_bound": 8.57895682841666,
+    "note": "Estimate from measured interval pair-call durations and actual two detection barriers; ignores IPC, scheduling, filesystem contention and changing cost under concurrency. Not a measured whole-six-second speedup or whole-scene fraction."
+  }
+}

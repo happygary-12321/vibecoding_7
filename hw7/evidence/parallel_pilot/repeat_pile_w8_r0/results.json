@@ -1,0 +1,17 @@
+{
+  "complete": true,
+  "results": [
+    {
+      "scene": "pile",
+      "workers": 8,
+      "batch_size": 4,
+      "raw_seconds": [
+        4.208974500012118
+      ],
+      "median_seconds": 4.208974500012118,
+      "sample_stdev_seconds": null,
+      "world_and_reports_exact": true
+    }
+  ],
+  "invocation_main_seconds": 5.329076199996052
+}

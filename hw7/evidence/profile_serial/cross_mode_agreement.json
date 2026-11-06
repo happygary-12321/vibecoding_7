@@ -1,0 +1,18 @@
+{
+  "free": {
+    "all_complete": true,
+    "world_and_report_digests_equal": true
+  },
+  "impacts": {
+    "all_complete": true,
+    "world_and_report_digests_equal": true
+  },
+  "pile": {
+    "all_complete": true,
+    "world_and_report_digests_equal": true
+  },
+  "peak": {
+    "all_complete": true,
+    "world_and_report_digests_equal": true
+  }
+}

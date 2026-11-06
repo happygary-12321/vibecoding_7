@@ -1,0 +1,5 @@
+﻿{
+    "command":  "python -B -m hw7.parallel_pilot validate --label validation_v1",
+    "cold_invocation_seconds":  0.3988043,
+    "exit_code":  1
+}

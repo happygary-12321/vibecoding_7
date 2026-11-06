@@ -1,0 +1,40 @@
+{
+  "status": "partial_budget",
+  "complete": false,
+  "requested_steps": 10,
+  "start_step": 0,
+  "completed_steps": 1,
+  "mode": "cprofile",
+  "physics_seconds": 0.0169557,
+  "graphs": [
+    {
+      "pair_count": 0,
+      "row_count": 0,
+      "islands": 0,
+      "island_row_weights": [],
+      "colors": 0,
+      "largest_island_row_share": 0.0
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "candidates": 0,
+      "manifolds": 0,
+      "rows": 0,
+      "corrected_depth": 0.0
+    }
+  ],
+  "end_step": 1,
+  "checkpoint_paths": [
+    "hw7/evidence/profile_serial/test_partial_10753edf085c405ba74431f7d1fa0114/checkpoints/step_000001.pickle"
+  ],
+  "error": null,
+  "world_digest": "0ab70eddd1e3144c8c9c9465ebe15378a27fde7053392ea95d0d2ac7480a6986",
+  "reports_digest": "74346df3f7ae7e4a19eaa745b7fabd6cbc8e9e4576e4cfb31dbdf82181b2536f",
+  "telemetry": null,
+  "candidate_sum": 0,
+  "manifold_sum": 0,
+  "row_sum": 0,
+  "max_corrected_depth": 0.0
+}

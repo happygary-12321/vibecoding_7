@@ -1,0 +1,41 @@
+{
+  "step": 1,
+  "time": 0.0020833333333333333,
+  "preparation_physics_seconds": 0.0253951,
+  "sha256": "8008e792eb852541f73892befa9047f75588ee5e2793ba4ebadfb0efab3995d5",
+  "physics_source_id": "85a6b0a41e01bd7f9a8366e6b92b9d10de4f128e20d0d7183ce30e300e685857",
+  "prepared_from_step": 0,
+  "genuine_simulation": true,
+  "includes_contact_cache": true,
+  "cache_manifolds": 0,
+  "seed": 7,
+  "options": {
+    "dt": 0.0020833333333333333,
+    "gravity": [
+      0.0,
+      -9.81,
+      0.0
+    ],
+    "restitution": 0.15,
+    "friction": 0.4,
+    "restitution_threshold": 0.5,
+    "velocity_iterations": 120,
+    "split_iterations": 20,
+    "enable_split": true,
+    "slop": 0.0001,
+    "beta": 0.2,
+    "correction_depth_limit": 0.03,
+    "max_translation": 0.01,
+    "max_rotation": 0.05,
+    "geometry_relative": 1e-08,
+    "contact_factor": 5.0,
+    "break_relative": 0.0001,
+    "face_angle": 0.0001,
+    "incident_cap_angle": 0.7853981633974483,
+    "cache_angle": 0.08726646259971647,
+    "perturb_angle": 0.01,
+    "gjk_iterations": 64,
+    "epa_iterations": 128,
+    "epa_faces": 512
+  }
+}

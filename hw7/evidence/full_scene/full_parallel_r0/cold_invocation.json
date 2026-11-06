@@ -1,0 +1,19 @@
+{
+  "command": [
+    "C:\\Users\\omen16\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+    "-B",
+    "-m",
+    "hw7.evidence.full_scene.runner",
+    "trial",
+    "--label",
+    "full_parallel_r0",
+    "--backend",
+    "parallel",
+    "--reference",
+    "full_serial_r0"
+  ],
+  "exit_code": 0,
+  "cold_invocation_seconds": 388.4043113999942,
+  "timer": "parent perf_counter around Popen through wait; includes process/imports/setup/warmup/physics/audit/export/shutdown/output; excludes this wrapper JSON write",
+  "finished_utc": "2026-11-05T23:03:50.220745+00:00"
+}
